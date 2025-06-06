@@ -10,14 +10,16 @@
   --book-shadow: rgba(0, 0, 0, 0.2);
   --font-main: 'Segoe UI', sans-serif;
   --font-color: rgba(48, 47, 46, 1);
+  --font-family: "Montserrat", sans-serif;
+
 }
 
 html,
 body {
   height: 100%;
-  font-family: 'Segoe UI', sans-serif;
   background-color: var(--background-color);
   color: #222;
+  font-family: var(--font-family);
 }
 
 #app {

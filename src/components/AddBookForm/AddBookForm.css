@@ -6,7 +6,6 @@
   margin: 0;
   padding: 1.5rem;
   background-color: var(--background-color);
-  font-family: "Montserrat";
   color: rgba(48, 47, 46, 1);
 }
 
@@ -88,7 +87,6 @@ button[type="submit"] {
   cursor: pointer;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   cursor: pointer;
-  font-family: "Montserrat";
   width: 8rem;
   height: 5rem;
   text-align: center;
@@ -97,6 +95,4 @@ button[type="submit"] {
 button[type="submit"]:hover {
   transform: rotate(0deg) scale(1.02);
   box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.3);
-  font-family: "Montserrat";
-
 }

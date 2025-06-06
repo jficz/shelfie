@@ -1,26 +1,3 @@
-/* .header {
-  background-image: url(../../assets/Shelfie-Header.png);
-  background-repeat: no-repeat;
-  background-position: center 3vh 3vh;
-  background-size: contain;
-  height: 13vh;
-  width: 100%;
-}
-
-@media (min-width: 550px) {
-  .header {
-    background-size: 100% auto;
-    height: 23vh;
-  }
-}
-
-@media (min-width: 768px) {
-  .header {
-    height: 38vh;
-  }
-} */
-
-/*Header styles*/
 .header {
   background-image: url(../../assets/shelfie_header_small.png);
   background-repeat: no-repeat;
@@ -48,11 +25,6 @@
 .nav-icon--home {
   top: 1rem;
   right: 1rem;
-}
-
-.nav-icon--back {
-  top: 1rem;
-  left: 1rem;
 }
 
 /*uprav velkost ikon*/

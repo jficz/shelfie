@@ -15,3 +15,26 @@
   height: 20px;
   background-image: url(../../assets/shelf_01_small.png);
 }
+
+.button-menu {
+  background-color: #fff9b1;
+  border: none;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+  padding: 1rem 1.5rem;
+  font-size: 1rem;
+  transform: rotate(-2deg);
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+  width: 8rem;
+  height: 5rem;
+  text-align: center;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
+
+.button-menu:hover {
+  transform: rotate(0deg) scale(1.02);
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.3);
+}

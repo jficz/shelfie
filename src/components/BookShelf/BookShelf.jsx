@@ -15,6 +15,7 @@ export const BookShelf = () => {
         <BookItem width={`${23 * 1.2}px`} height={`${70 * 1.2}px`} />
       </div>
       <div className="shelf"></div>
+      <button className="button-menu">MENU</button>
     </div>
   );
 };

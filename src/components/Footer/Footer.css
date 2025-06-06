@@ -1,6 +1,5 @@
 /* .footer {
   text-align: center;
-  padding-bottom: 2rem;
   position: relative;
 }
 
@@ -14,9 +13,10 @@
 
 .footer {
   text-align: center;
-  position: relative;
   bottom: 0;
-
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  width: 100%;
 }
 
 .footer-title {
@@ -24,5 +24,4 @@
   font-weight: 300;
   letter-spacing: 0.15rem;
   z-index: 1;
-  position: relative;
 }
