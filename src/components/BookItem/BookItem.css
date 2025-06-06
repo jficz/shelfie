@@ -1,0 +1,33 @@
+.book-item {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  overflow: hidden;
+}
+
+.book-item p {
+  transform: rotate(-90deg);
+  position: relative;
+}
+
+
+/* Doporučení chatGPT na efekt vysunutí knihy, nedopracováno */
+
+.bookshelf {
+  perspective: 600px;
+  /* nastav perspektivu pro 3D efekt */
+}
+
+.book-item {
+  transform-origin: bottom center;
+  /* osa otáčení dole uprostřed */
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.book-item:hover {
+  transform: rotateX(-20deg);
+  /* vyklon dopředu */
+}

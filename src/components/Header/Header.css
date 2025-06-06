@@ -1,0 +1,79 @@
+/* .header {
+  background-image: url(../../assets/Shelfie-Header.png);
+  background-repeat: no-repeat;
+  background-position: center 3vh 3vh;
+  background-size: contain;
+  height: 13vh;
+  width: 100%;
+}
+
+@media (min-width: 550px) {
+  .header {
+    background-size: 100% auto;
+    height: 23vh;
+  }
+}
+
+@media (min-width: 768px) {
+  .header {
+    height: 38vh;
+  }
+} */
+
+/*Header styles*/
+.header {
+  background-image: url(../../assets/shelfie_header_small.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 20vh;
+  width: 100%;
+  position: relative;
+  margin-bottom: 20px;
+  background-size: 100% auto;
+}
+
+/*Naviagtion styles*/
+
+.nav-icon {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+  font-size: 0;
+  line-height: 0;
+  position: absolute;
+
+}
+
+.nav-icon--home {
+  top: 1rem;
+  right: 1rem;
+}
+
+.nav-icon--back {
+  top: 1rem;
+  left: 1rem;
+}
+
+/*uprav velkost ikon*/
+
+.nav-icon img {
+  width: 2rem;
+  height: 2rem;
+  display: block;
+}
+
+
+
+@media (min-width: 550px) {
+  .header {
+    background-size: 100% auto;
+    /* height: 23vh; */
+  }
+}
+
+@media (min-width: 768px) {
+  .header {
+    background-size: 100% auto;
+  }
+}

@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --background-color: #E3EFE5;
+  --shelf-color: #b27c5c;
+  --book-shadow: rgba(0, 0, 0, 0.2);
+  --font-main: 'Segoe UI', sans-serif;
+  --font-color: rgba(48, 47, 46, 1);
+}
+
+html,
+body {
+  height: 100%;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: var(--background-color);
+  color: #222;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
