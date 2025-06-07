@@ -12,7 +12,7 @@ export const HomePage = ({ books }) => {
   return (
     <>
       <Header />
-      <div className="container">{<BookDetail books={books} />}</div>
+      <div className="container">{<BookShelf books={books} />}</div>
       <Footer />
     </>
   );
