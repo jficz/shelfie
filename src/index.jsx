@@ -3,7 +3,7 @@ import './global.css';
 import { App } from './app';
 import { createBrowserRouter, RouterProvider, Link } from 'react-router-dom';
 import { BookDetail } from './components/BookDetail/BookDetail';
-import { BookShelf } from './components/BookShelf/BookShelf'
+import { BookShelf } from './components/BookShelf/BookShelf';
 import { AddBookForm } from './components/AddBookForm/AddBookForm';
 
 const router = createBrowserRouter([
@@ -12,8 +12,8 @@ const router = createBrowserRouter([
     element: <App />,
     children: [
       {
-        path: "",
-        element: <BookShelf />
+        path: '',
+        element: <BookShelf />,
       },
       {
         path: 'detail-knihy/:bookId',

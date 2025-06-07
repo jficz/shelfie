@@ -10,6 +10,7 @@ export const BookShelf = () => {
     console.log('run fetch books:');
     const fetchBooks = async () => {
       const response = await fetch(`api/books.json`);
+      console.log("responce", response)
       const json = await response.json();
       setBooks(json.data);
     };
