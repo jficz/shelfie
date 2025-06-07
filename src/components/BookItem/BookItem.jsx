@@ -1,10 +1,13 @@
 import './BookItem.css';
+import { Link } from 'react-router-dom';
 
-export const BookItem = ({ author, title }) => {
+export const BookItem = ({ bookId, author, title }) => {
   return (
-    <div className="book-item">
-      <p>{author}</p>
-      <p>{title}</p>
-    </div>
+    <Link to={`/detail-knihy/:${bookId}`}>
+      <div className="book-item">
+        <p>{author}</p>
+        <p>{title}</p>
+      </div>
+    </Link>
   );
 };

@@ -2,7 +2,7 @@ import './BookDetail.css';
 import imgPlaceholder from '../../../src/assets/bookPic-placeholder.jpg';
 
 export const BookDetail = ({ books }) => {
-  console.log('bookdetail', books);
+  const { bookId } = useParams();
 
   return books.map((book) => {
     return (

@@ -14,10 +14,9 @@ const router = createBrowserRouter([
       {
         path: '/',
         element: <HomePage />,
-        /*loader: <LoadingPage />*/
       },
       {
-        path: '/detail-knihy/:id',
+        path: '/detail-knihy/:bookId',
         element: <BookDetail />,
       },
       {

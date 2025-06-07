@@ -1,6 +1,7 @@
 import { LoadingPage } from './pages/LoadingPage/LoadingPage';
 import { HomePage } from './pages/HomePage/HomePage';
 import { useEffect, useState } from 'react';
+import { useParams } from 'react-router-dom';
 
 export const App = () => {
   const [books, setBooks] = useState([]);
@@ -12,7 +13,7 @@ export const App = () => {
       const json = await response.json();
       setTimeout(() => {
         setBooks(json.data);
-      }, 3000);
+      }, 1000);
     };
 
     fetchBooks();
