@@ -1,11 +1,15 @@
 import './Menu.css';
 
 export const Menu = () => {
+  const handleClick = () => {
+    console.log('Tohle přesměruje na stránku přidat knihu');
+  };
+
   return (
     <nav className="expanded-menu">
       <ul>
         <li className="list-item">
-          <button className="list-button">
+          <button className="list-button" onClick={handleClick}>
             <img src="../assets/icons/plus.png" alt="Přidat knihu" />
             Přidat knihu
           </button>
