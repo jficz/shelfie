@@ -4,7 +4,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 600px;
 }
+
 
 .book-cover img {
   max-width: 250px;
@@ -63,3 +67,5 @@
 .book-meta-info-list li {
   margin-bottom: 0.3rem;
 }
+
+
