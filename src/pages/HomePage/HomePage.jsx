@@ -1,15 +1,13 @@
 import { Footer } from '../../components/Footer/Footer';
 import { Header } from '../../components/Header/Header';
 import './HomePage.css';
-import { BookShelf } from '../../components/BookShelf/BookShelf';
+import { Outlet } from 'react-router-dom';
 
-export const HomePage = ({ books }) => {
-  console.log('homepage', books);
-
+export const HomePage = () => {
   return (
     <>
       <Header />
-      <div className="container">{<BookShelf books={books} />}</div>
+      <div className="container">{<Outlet />}</div>
       <Footer />
     </>
   );
