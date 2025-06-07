@@ -1,18 +1,17 @@
 import './Menu.css';
+import { Link } from 'react-router-dom';
 
-export const Menu = () => {
-  const handleClick = () => {
-    console.log('Tohle přesměruje na stránku přidat knihu');
-  };
-
+export const Menu = ({ onLink }) => {
   return (
     <nav className="expanded-menu">
       <ul>
         <li className="list-item">
-          <button className="list-button" onClick={handleClick}>
-            <img src="../assets/icons/plus.png" alt="Přidat knihu" />
-            Přidat knihu
-          </button>
+          <Link to={'pridat-knihu'} onClick={onLink}>
+            <button className="list-button">
+              <img src="../assets/icons/plus.png" alt="Přidat knihu" />
+              Přidat knihu
+            </button>
+          </Link>
         </li>
         <li className="list-item">
           <button className="list-button">

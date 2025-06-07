@@ -5,11 +5,13 @@ import { createBrowserRouter, RouterProvider, Link } from 'react-router-dom';
 import { BookDetail } from './components/BookDetail/BookDetail';
 import { BookShelf } from './components/BookShelf/BookShelf';
 import { AddBookForm } from './components/AddBookForm/AddBookForm';
+import { ErrorPage } from './components/ErrorPage/ErrorPage';
 
 const router = createBrowserRouter([
   {
     path: '/',
     element: <App />,
+    errorElement: <ErrorPage />,
     children: [
       {
         path: '',
@@ -20,13 +22,11 @@ const router = createBrowserRouter([
         element: <BookDetail />,
       },
       {
-        path: '/pridat-knihu',
+        path: 'pridat-knihu',
         element: <AddBookForm />,
       },
     ],
   },
 ]);
 
-createRoot(document.querySelector('#app')).render(
-  <RouterProvider router={router} />,
-);
+createRoot(document.querySelector('#app')).render(<RouterProvider router={router} />);
