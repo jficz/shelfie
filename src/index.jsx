@@ -20,13 +20,11 @@ const router = createBrowserRouter([
         element: <BookDetail />,
       },
       {
-        path: '/pridat-knihu',
+        path: 'pridat-knihu',
         element: <AddBookForm />,
       },
     ],
   },
 ]);
 
-createRoot(document.querySelector('#app')).render(
-  <RouterProvider router={router} />,
-);
+createRoot(document.querySelector('#app')).render(<RouterProvider router={router} />);
