@@ -1,9 +1,6 @@
-import { Footer } from '../../Components/Footer/Footer';
-import { Header } from '../../Components/Header/Header';
-import { BookDetail } from '../../Components/BookDetail/BookDetail';
-
+import { Footer } from '../../components/Footer/Footer';
+import { Header } from '../../components/Header/Header';
 import './HomePage.css';
-import { AddBookForm } from '../../components/AddBookForm/AddBookForm';
 import { BookShelf } from '../../components/BookShelf/BookShelf';
 
 export const HomePage = ({ books }) => {

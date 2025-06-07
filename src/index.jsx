@@ -1,13 +1,10 @@
 import { createRoot } from 'react-dom/client';
 import './global.css';
-import { App } from './App';
+import { App } from './app';
 import { createBrowserRouter, RouterProvider, Link } from 'react-router-dom';
-import { BookDetail } from './Components/BookDetail/BookDetail';
+import { BookDetail } from './components/BookDetail/BookDetail';
 import { HomePage } from './pages/HomePage/HomePage';
-//import { LoadingPage } from './pages/LoadingPage/LoadingPage';
 import { AddBookForm } from './components/AddBookForm/AddBookForm';
-
-//createRoot(document.querySelector('#app')).render(<App />);
 
 const router = createBrowserRouter([
   {
