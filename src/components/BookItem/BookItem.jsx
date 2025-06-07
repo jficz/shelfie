@@ -1,10 +1,10 @@
 import './BookItem.css';
 
-export const BookItem = ({ width, height }) => {
+export const BookItem = ({ author, title }) => {
   return (
-    <div className="book-item" style={{ width, height }}>
-      <p>Autor</p>
-      <p>Titul</p>
+    <div className="book-item">
+      <p>{author}</p>
+      <p>{title}</p>
     </div>
   );
 };
