@@ -40,7 +40,7 @@ export const BookShelf = () => {
     <div className="bookshelf-wrapper">
       <div className="bookshelf">
         {combined.map((book) => (
-          <BookItem key={book.id} title={book.title} author={book.author} />
+          <BookItem key={book.id} bookId={book.id} title={book.title} author={book.author} />
         ))}
       </div>
       <div className="shelf"></div>
