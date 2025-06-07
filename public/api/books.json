@@ -2,7 +2,7 @@
   "data": [
     {
       "id": "book_001",
-      "authorId": null,
+      "authorId": "author_001",
       "title": "Železná rada",
       "bookCover": null,
       "genreId": ["science fiction"],
@@ -16,7 +16,7 @@
     },
     {
       "id": "book_002",
-      "authorId": null,
+      "authorId": "author_001",
       "title": "Un Lun Dun",
       "bookCover": null,
       "genreId": ["science fiction"],
@@ -30,7 +30,7 @@
     },
     {
       "id": "book_003",
-      "authorId": null,
+      "authorId": "author_001",
       "title": "Pátrání po Jakeovi a jiné příběhy",
       "bookCover": null,
       "genreId": ["science fiction"],
@@ -44,7 +44,7 @@
     },
     {
       "id": "book_004",
-      "authorId": null,
+      "authorId": "author_001",
       "title": "Nádraží Perdido",
       "bookCover": null,
       "genreId": ["science fiction"],
@@ -58,7 +58,7 @@
     },
     {
       "id": "book_005",
-      "authorId": null,
+      "authorId": "author_001",
       "title": "Kraken",
       "bookCover": null,
       "genreId": ["science fiction"],
@@ -72,7 +72,7 @@
     },
     {
       "id": "book_006",
-      "authorId": null,
+      "authorId": "author_001",
       "title": "Kolejmoří",
       "bookCover": null,
       "genreId": ["science fiction"],
@@ -86,7 +86,7 @@
     },
     {
       "id": "book_007",
-      "authorId": null,
+      "authorId": "author_001",
       "title": "Jizva",
       "bookCover": null,
       "genreId": ["science fiction"],
@@ -100,7 +100,7 @@
     },
     {
       "id": "book_008",
-      "authorId": null,
+      "authorId": "author_001",
       "title": "Ambasadov",
       "bookCover": null,
       "genreId": ["science fiction"],
@@ -114,7 +114,7 @@
     },
     {
       "id": "book_009",
-      "authorId": null,
+      "authorId": "author_001",
       "title": "Vzestup Endymionu 2",
       "bookCover": null,
       "genreId": ["science fiction"],
@@ -128,7 +128,7 @@
     },
     {
       "id": "book_010",
-      "authorId": null,
+      "authorId": "author_001",
       "title": "Vzestup Endymionu 1",
       "bookCover": null,
       "genreId": ["science fiction"],
@@ -142,7 +142,7 @@
     },
     {
       "id": "book_011",
-      "authorId": null,
+      "authorId": "author_001",
       "title": "Endymion",
       "bookCover": null,
       "genreId": ["science fiction"],
@@ -156,7 +156,7 @@
     },
     {
       "id": "book_012",
-      "authorId": null,
+      "authorId": "author_001",
       "title": "Pád Hyperionu",
       "bookCover": null,
       "genreId": ["science fiction"],
@@ -170,7 +170,7 @@
     },
     {
       "id": "book_013",
-      "authorId": null,
+      "authorId": "author_001",
       "title": "Hyperion",
       "bookCover": null,
       "genreId": ["science fiction"],
@@ -184,7 +184,7 @@
     },
     {
       "id": "book_014",
-      "authorId": null,
+      "authorId": "author_001",
       "title": "Božská komedie",
       "bookCover": null,
       "genreId": ["poezie", "klasická literatura"],
@@ -198,7 +198,7 @@
     },
     {
       "id": "book_015",
-      "authorId": null,
+      "authorId": "author_001",
       "title": "Zaslíbené země",
       "bookCover": null,
       "genreId": ["román"],
@@ -212,7 +212,7 @@
     },
     {
       "id": "book_016",
-      "authorId": null,
+      "authorId": "author_001",
       "title": "Klub nenapravitelných optimistů",
       "bookCover": null,
       "genreId": ["historický román", "společenský román"],
@@ -226,7 +226,7 @@
     },
     {
       "id": "book_017",
-      "authorId": null,
+      "authorId": "author_001",
       "title": "Vysněný život Ernesta G.",
       "bookCover": null,
       "genreId": ["historický román", "společenský román"],
@@ -240,7 +240,7 @@
     },
     {
       "id": "book_018",
-      "authorId": null,
+      "authorId": "author_001",
       "title": "Filuta",
       "bookCover": null,
       "genreId": ["fantasy"],
@@ -254,7 +254,7 @@
     },
     {
       "id": "book_019",
-      "authorId": null,
+      "authorId": "author_001",
       "title": "Národ",
       "bookCover": null,
       "genreId": ["fantasy", "dobrodružný román"],
@@ -268,7 +268,7 @@
     },
     {
       "id": "book_020",
-      "authorId": null,
+      "authorId": "author_001",
       "title": "Čarodějky na cestách",
       "bookCover": null,
       "genreId": ["fantasy"],
@@ -282,7 +282,7 @@
     },
     {
       "id": "book_021",
-      "authorId": null,
+      "authorId": "author_001",
       "title": "Barva kouzel",
       "bookCover": null,
       "genreId": ["fantasy"],
@@ -296,7 +296,7 @@
     },
     {
       "id": "book_022",
-      "authorId": null,
+      "authorId": "author_001",
       "title": "Pyramidy",
       "bookCover": null,
       "genreId": ["fantasy"],
@@ -310,7 +310,7 @@
     },
     {
       "id": "book_023",
-      "authorId": null,
+      "authorId": "author_001",
       "title": "Pod parou",
       "bookCover": null,
       "genreId": ["fantasy"],
@@ -324,7 +324,7 @@
     },
     {
       "id": "book_024",
-      "authorId": null,
+      "authorId": "author_001",
       "title": "Nefalšovaná kočka",
       "bookCover": null,
       "genreId": ["humor", "eseje"],
@@ -338,7 +338,7 @@
     },
     {
       "id": "book_025",
-      "authorId": null,
+      "authorId": "author_001",
       "title": "Nohy z jílu",
       "bookCover": null,
       "genreId": ["fantasy"],
@@ -352,7 +352,7 @@
     },
     {
       "id": "book_026",
-      "authorId": null,
+      "authorId": "author_001",
       "title": "Malí bohové",
       "bookCover": null,
       "genreId": ["fantasy"],
@@ -366,7 +366,7 @@
     },
     {
       "id": "book_027",
-      "authorId": null,
+      "authorId": "author_001",
       "title": "Zaslaná pošta",
       "bookCover": null,
       "genreId": ["fantasy"],
@@ -380,7 +380,7 @@
     },
     {
       "id": "book_028",
-      "authorId": null,
+      "authorId": "author_001",
       "title": "Tracyho tygr",
       "bookCover": null,
       "genreId": ["filozofický", "humorný"],
@@ -394,7 +394,7 @@
     },
     {
       "id": "book_029",
-      "authorId": null,
+      "authorId": "author_001",
       "title": "Sophiina volba",
       "bookCover": null,
       "genreId": ["historický román", "psychologický román"],
@@ -408,7 +408,7 @@
     },
     {
       "id": "book_030",
-      "authorId": null,
+      "authorId": "author_001",
       "title": "Viditelná temnota: Memoáry šílenství",
       "bookCover": null,
       "genreId": ["autobiografie", "memoáry", "psychologie"],
@@ -422,7 +422,7 @@
     },
     {
       "id": "book_031",
-      "authorId": null,
+      "authorId": "author_001",
       "title": "Othello",
       "bookCover": null,
       "genreId": ["tragédie", "klasická literatura"],
@@ -436,7 +436,7 @@
     },
     {
       "id": "book_032",
-      "authorId": null,
+      "authorId": "author_001",
       "title": "Pýcha a předsudek",
       "bookCover": null,
       "genreId": ["román", "klasická literatura", "romantický román"],
@@ -450,7 +450,7 @@
     },
     {
       "id": "book_033",
-      "authorId": null,
+      "authorId": "author_001",
       "title": "Rozum a cit",
       "bookCover": null,
       "genreId": ["román", "klasická literatura", "romantický román"],
@@ -464,7 +464,7 @@
     },
     {
       "id": "book_034",
-      "authorId": null,
+      "authorId": "author_001",
       "title": "Pán prstenů",
       "bookCover": null,
       "genreId": ["fantasy", "dobrodružný román", "epický román"],
@@ -478,7 +478,7 @@
     },
     {
       "id": "book_035",
-      "authorId": null,
+      "authorId": "author_001",
       "title": "Dvě věže",
       "bookCover": "https://example.com/dve_veze.jpg",
       "genreId": ["fantasy", "dobrodružné"],
@@ -492,7 +492,7 @@
     },
     {
       "id": "book_036",
-      "authorId": null,
+      "authorId": "author_001",
       "title": "Návrat krále",
       "bookCover": "https://example.com/navrat_krale.jpg",
       "genreId": ["fantasy", "dobrodružné"],
@@ -506,7 +506,7 @@
     },
     {
       "id": "book_037",
-      "authorId": null,
+      "authorId": "author_001",
       "title": "Zaklínač: Poslední přání",
       "bookCover": null,
       "genreId": ["fantasy", "povídková sbírka", "dobrodružný román"],
@@ -520,7 +520,7 @@
     },
     {
       "id": "book_038",
-      "authorId": null,
+      "authorId": "author_001",
       "title": "Země alkoholu",
       "bookCover": null,
       "genreId": ["román", "satira", "magický realismus"],
@@ -534,7 +534,7 @@
     },
     {
       "id": "book_039",
-      "authorId": null,
+      "authorId": "author_001",
       "title": "Rod rudého čiroku",
       "bookCover": null,
       "genreId": ["historický román", "rodinná sága", "magický realismus"],
@@ -548,7 +548,7 @@
     },
     {
       "id": "book_040",
-      "authorId": null,
+      "authorId": "author_001",
       "title": "Hra o trůny",
       "bookCover": "https://example.com/game_of_thrones_1.jpg",
       "genreId": ["fantasy", "epická fantasy", "dobrodružné"],
@@ -562,7 +562,7 @@
     },
     {
       "id": "book_041",
-      "authorId": null,
+      "authorId": "author_001",
       "title": "Střet králů",
       "bookCover": "https://example.com/clash_of_kings.jpg",
       "genreId": ["fantasy", "epická fantasy", "dobrodružné"],
@@ -576,7 +576,7 @@
     },
     {
       "id": "book_042",
-      "authorId": null,
+      "authorId": "author_001",
       "title": "Bouře mečů",
       "bookCover": "https://example.com/storm_of_swords.jpg",
       "genreId": ["fantasy", "epická fantasy", "dobrodružné"],
@@ -590,7 +590,7 @@
     },
     {
       "id": "book_043",
-      "authorId": null,
+      "authorId": "author_001",
       "title": "Hostina pro vrány",
       "bookCover": "https://example.com/feast_for_crows.jpg",
       "genreId": ["fantasy", "epická fantasy", "dobrodružné"],
@@ -604,7 +604,7 @@
     },
     {
       "id": "book_044",
-      "authorId": null,
+      "authorId": "author_001",
       "title": "Tanec s draky",
       "bookCover": "https://example.com/dance_with_dragons.jpg",
       "genreId": ["fantasy", "epická fantasy", "dobrodružné"],
@@ -618,7 +618,7 @@
     },
     {
       "id": "book_045",
-      "authorId": null,
+      "authorId": "author_001",
       "title": "Anna Boleynová: Králova posedlost",
       "bookCover": null,
       "genreId": ["historický román", "biografický román"],
@@ -632,7 +632,7 @@
     },
     {
       "id": "book_046",
-      "authorId": null,
+      "authorId": "author_001",
       "title": "Duna",
       "bookCover": "https://example.com/duna_1.jpg",
       "genreId": ["sci-fi", "epická sci-fi", "dobrodružné"],
@@ -646,7 +646,7 @@
     },
     {
       "id": "book_047",
-      "authorId": null,
+      "authorId": "author_001",
       "title": "Duna: Spasitel Duny",
       "bookCover": "https://example.com/duna_2.jpg",
       "genreId": ["sci-fi", "epická sci-fi", "dobrodružné"],
@@ -660,7 +660,7 @@
     },
     {
       "id": "book_048",
-      "authorId": null,
+      "authorId": "author_001",
       "title": "Duna: Děti Duny",
       "bookCover": "https://example.com/duna_3.jpg",
       "genreId": ["sci-fi", "epická sci-fi", "dobrodružné"],
@@ -674,7 +674,7 @@
     },
     {
       "id": "book_049",
-      "authorId": null,
+      "authorId": "author_001",
       "title": "Duna: Božský císař Duny",
       "bookCover": "https://example.com/duna_4.jpg",
       "genreId": ["sci-fi", "epická sci-fi", "dobrodružné"],
@@ -688,7 +688,7 @@
     },
     {
       "id": "book_050",
-      "authorId": null,
+      "authorId": "author_001",
       "title": "Duna: Kacíři Duny",
       "bookCover": "https://example.com/duna_5.jpg",
       "genreId": ["sci-fi", "epická sci-fi", "dobrodružné"],
@@ -702,7 +702,7 @@
     },
     {
       "id": "book_051",
-      "authorId": null,
+      "authorId": "author_001",
       "title": "Duna: Kapitula Duny",
       "bookCover": "https://example.com/duna_6.jpg",
       "genreId": ["sci-fi", "epická sci-fi", "dobrodružné"],
@@ -716,7 +716,7 @@
     },
     {
       "id": "book_052",
-      "authorId": null,
+      "authorId": "author_001",
       "title": "Balada o ptácích a hadech",
       "bookCover": null,
       "genreId": ["sci-fi", "dystopie", "dobrodružný román"],
@@ -730,7 +730,7 @@
     },
     {
       "id": "book_053",
-      "authorId": null,
+      "authorId": "author_001",
       "title": "Hunger Games",
       "bookCover": "https://example.com/hunger_games_1.jpg",
       "genreId": ["sci-fi", "dystopie", "mladí dospělí"],
@@ -744,7 +744,7 @@
     },
     {
       "id": "book_054",
-      "authorId": null,
+      "authorId": "author_001",
       "title": "Vražedná pomsta (Catching Fire)",
       "bookCover": "https://example.com/hunger_games_2.jpg",
       "genreId": ["sci-fi", "dystopie", "mladí dospělí"],
@@ -758,7 +758,7 @@
     },
     {
       "id": "book_055",
-      "authorId": null,
+      "authorId": "author_001",
       "title": "Síla vzdoru (Mockingjay)",
       "bookCover": "https://example.com/hunger_games_3.jpg",
       "genreId": ["sci-fi", "dystopie", "mladí dospělí"],
@@ -772,7 +772,7 @@
     },
     {
       "id": "book_056",
-      "authorId": null,
+      "authorId": "author_001",
       "title": "Balada o ptácích a hadech (The Ballad of Songbirds and Snakes)",
       "bookCover": "https://example.com/hunger_games_prequel.jpg",
       "genreId": ["sci-fi", "dystopie", "mladí dospělí"],
@@ -786,7 +786,7 @@
     },
     {
       "id": "book_057",
-      "authorId": null,
+      "authorId": "author_001",
       "title": "Let Love Rule",
       "bookCover": null,
       "genreId": ["memoáry", "hudební biografie"],

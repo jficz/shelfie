@@ -5,34 +5,43 @@ import './BookShelf.css';
 
 export const BookShelf = () => {
   const [books, setBooks] = useState([]);
+  const [authors, setAuthors] = useState([]);
 
   useEffect(() => {
-    console.log('run fetch books:');
     const fetchBooks = async () => {
       const response = await fetch(`api/books.json`);
-      console.log("responce", response)
       const json = await response.json();
       setBooks(json.data);
     };
-
     fetchBooks();
 
-    console.log('fetch books:');
+    const fetchAuthors = async () => {
+      const response = await fetch(`api/authors.json`);
+      const json = await response.json();
+      setAuthors(json.data);
+    };
+    fetchAuthors();
   }, []);
-  return (
+
+  const combineArrays = (books, authors) => {
+    return books.map((book) => {
+      const author = authors.find((a) => a.id === book.authorId);
+      return {
+        id: book.id,
+        title: book.title,
+        author: author ? author.name : 'Neznámý autor',
+      };
+    });
+  };
+
+  const combined = combineArrays(books, authors);
+
+  return !books.length || !authors.length ? null : (
     <div className="bookshelf-wrapper">
       <div className="bookshelf">
-        {books.map((book) => {
-          return (
-            <BookItem
-              key={book.id}
-              bookId={book.id}
-              author={book.author}
-              title={book.title}
-            />
-          );
-        })}
-        
+        {combined.map((book) => (
+          <BookItem key={book.id} title={book.title} author={book.author} />
+        ))}
       </div>
       <div className="shelf"></div>
       <button className="button-menu">MENU</button>
