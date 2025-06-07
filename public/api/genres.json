@@ -2,7 +2,7 @@
   "data": [
     {
       "id": "genre_01",
-      "genreName": "science fiction",
+      "genreName": "sci-fi",
       "description": "Literatura zaměřená na vědecké a technologické inovace, často s futuristickými nebo vesmírnými tématy."
     },
     {
@@ -56,11 +56,6 @@
       "description": "Literatura zaměřená na otázky existence, poznání a etiky."
     },
     {
-      "id": "genre_12",
-      "genreName": "humorný",
-      "description": "Díla, která mají za cíl čtenáře rozesmát a pobavit."
-    },
-    {
       "id": "genre_13",
       "genreName": "psychologický román",
       "description": "Román zaměřený na vnitřní svět postav a jejich psychické procesy."
@@ -97,7 +92,7 @@
     },
     {
       "id": "genre_20",
-      "genreName": "povídková sbírka",
+      "genreName": "povídky",
       "description": "Soubor kratších příběhů různých témat a žánrů."
     },
     {
@@ -116,19 +111,9 @@
       "description": "Rozsáhlé fantasy příběhy s propracovaným světem a mnoha postavami."
     },
     {
-      "id": "genre_24",
-      "genreName": "dobrodružné",
-      "description": "Příběhy plné napětí, akce a cestování."
-    },
-    {
       "id": "genre_25",
       "genreName": "biografický román",
       "description": "Román založený na životě skutečné osoby, často s dramatizovanými prvky."
-    },
-    {
-      "id": "genre_26",
-      "genreName": "sci-fi",
-      "description": "Literatura zaměřená na vědecké a technologické inovace, často s futuristickými tématy."
     },
     {
       "id": "genre_27",
@@ -142,13 +127,18 @@
     },
     {
       "id": "genre_29",
-      "genreName": "mladí dospělí",
+      "genreName": "young adult",
       "description": "Literatura zaměřená na čtenáře v období dospívání a rané dospělosti."
     },
     {
       "id": "genre_30",
       "genreName": "hudební biografie",
       "description": "Životopisné příběhy zaměřené na hudebníky a jejich kariéru."
+    },
+    {
+      "id": "genre_31",
+      "genreName": "rodinná sága",
+      "description": "Příběh sledující osudy několika generací jedné rodiny napříč časem a proměnlivými společenskými podmínkami."
     }
   ]
 }
