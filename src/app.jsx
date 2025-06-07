@@ -2,6 +2,7 @@ import { LoadingPage } from './pages/LoadingPage/LoadingPage';
 import { HomePage } from './pages/HomePage/HomePage';
 import { useEffect, useState } from 'react';
 import { Outlet, useParams } from 'react-router-dom';
+import { BookShelf } from './components/BookShelf/BookShelf';
 
 export const App = () => {
  

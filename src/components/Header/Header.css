@@ -10,6 +10,30 @@
   background-size: 100% auto;
 }
 
+.only-desktop{
+  display: none;
+}
+
+@media screen and (min-width: 660px) {
+  .header {
+    background-image: none;
+    min-height: 60px;
+    height: 60px;
+    background-color: beige;
+    display: flex;
+  }
+
+  .only-desktop{
+    display: inline-block;
+    border: none;
+    font-family: "Aboreto";
+    background-color: transparent;
+    font-size: 2.5rem;
+    text-align: center;
+    padding-left: 1rem;
+  }
+}
+
 /*Naviagtion styles*/
 
 .nav-icon {
@@ -51,7 +75,7 @@
 }
 
 
-/* CSS: @media (min-width: 768px){
+/* CSS: @media (min-width: 660px){
 .header-big {
   display: flex; 
   justify-content: flex-start;
