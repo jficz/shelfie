@@ -7,12 +7,12 @@ export const App = () => {
   //const [,] = useState('');
 
   useEffect(() => {
-    if (!books) setItems([]);
+    if (!books) setBooks([]);
     else {
       const fetchBooks = async () => {
         const response = await fetch(`api/books.json`);
         const json = await response.json();
-        setBooks(json.data);
+        setTimeout(() => setBooks(json.data), 6000)
       };
 
       fetchBooks();
@@ -20,8 +20,8 @@ export const App = () => {
   }, []);
 
   return (
-    <>
-      <HomePage books={books} />
-    </>
+    
+      books ? <HomePage books={books} /> : <LoadingPage />
+    
   );
 };
