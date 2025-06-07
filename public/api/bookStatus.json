@@ -1,0 +1,58 @@
+{
+  "data": [
+    {
+      "id": "status_01",
+      "code": "toRead",
+      "name": "Chci přečíst",
+      "description": "Knihy, které si plánuji přečíst."
+    },
+    {
+      "id": "status_02",
+      "code": "currentlyReading",
+      "name": "Čtu",
+      "description": "Knihy, které právě čtu."
+    },
+    {
+      "id": "status_03",
+      "code": "read",
+      "name": "Přečteno",
+      "description": "Knihy, které jsem již přečetl/a."
+    },
+    {
+      "id": "status_04",
+      "code": "loaned",
+      "name": "Půjčeno",
+      "description": "Knihy, které jsem někomu půjčil/a."
+    },
+    {
+      "id": "status_05",
+      "code": "wantToBuy",
+      "name": "Chci si koupit",
+      "description": "Knihy, které si chci pořídit."
+    },
+    {
+      "id": "status_06",
+      "code": "wantToRead",
+      "name": "Chci si přečíst",
+      "description": "Knihy, které si chci přečíst."
+    },
+    {
+      "id": "status_07",
+      "code": "unread",
+      "name": "Nepřečtené",
+      "description": "Knihy, které jsem ještě nečetl/a."
+    },
+    {
+      "id": "status_08",
+      "code": "unfinished",
+      "name": "Nedočtené",
+      "description": "Knihy, které jsem (zatím) nedočetl/a."
+    },
+    {
+      "id": "status_09",
+      "code": "recommended",
+      "name": "Doporučeno",
+      "description": "Knihy, které mi někdo doporučil."
+    }
+  ]
+}

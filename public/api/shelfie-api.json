@@ -1,0 +1,37 @@
+{
+  "data": [
+    {
+      "details": {
+        "name": "Shelfie API",
+        "description": "API for the Shelfie project.",
+        "version": "1.0.0",
+        "endpoints": [
+          {
+            "path": "/authors",
+            "description": "List of all authors"
+          },
+          {
+            "path": "/books",
+            "description": "List of all books"
+          },
+          {
+            "path": "/geners",
+            "description": "List of all geners"
+          },
+          {
+            "path": "/book-status",
+            "description": "List of possible statuses"
+          },
+          {
+            "path": "/user",
+            "description": "User details"
+          },
+          {
+            "path": "/colors",
+            "description": "Book color"
+          }
+        ]
+      }
+    }
+  ]
+}

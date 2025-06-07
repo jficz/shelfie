@@ -6,13 +6,11 @@ export const App = () => {
   const [books, setBooks] = useState([]);
   //const [,] = useState('');
 
-
-
   useEffect(() => {
     if (!books) setItems([]);
     else {
       const fetchBooks = async () => {
-        const response = await fetch(`http://localhost:4000/api/books`);
+        const response = await fetch(`api/books.json`);
         const json = await response.json();
         setBooks(json.data);
       };

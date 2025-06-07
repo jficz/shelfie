@@ -7,14 +7,12 @@ import { AddBookForm } from '../../components/AddBookForm/AddBookForm';
 import { BookShelf } from '../../components/BookShelf/BookShelf';
 
 export const HomePage = ({ books }) => {
-  //console.log("homepage", books);
+  console.log('homepage', books);
 
   return (
     <>
       <Header />
-      <div className="container">
-        <BookDetail books={books} />
-      </div>
+      <div className="container">{<BookDetail books={books} />}</div>
       <Footer />
     </>
   );

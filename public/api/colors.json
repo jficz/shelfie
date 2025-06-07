@@ -1,0 +1,14 @@
+{
+  "data": [
+    { "name": "red", "hex": "#FF0000" },
+    { "name": "green", "hex": "#00FF00" },
+    { "name": "blue", "hex": "#0000FF" },
+    { "name": "yellow", "hex": "#FFFF00" },
+    { "name": "black", "hex": "#000000" },
+    { "name": "white", "hex": "#FFFFFF" },
+    { "name": "orange", "hex": "#FFA500" },
+    { "name": "purple", "hex": "#800080" },
+    { "name": "pink", "hex": "#FFC0CB" },
+    { "name": "gray", "hex": "#808080" }
+  ]
+}

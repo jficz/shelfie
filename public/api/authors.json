@@ -1,0 +1,1039 @@
+{
+  "data": [
+    {
+      "id": "author_001",
+      "name": "Homér",
+      "metaData": "Starověký řecký básník, tradičně připisovaný autor eposů Ilias a Odysseia."
+    },
+    {
+      "id": "author_002",
+      "name": "Platón",
+      "metaData": "Řecký filozof, žák Sokrata, zakladatel Akademie, autor filozofických dialogů."
+    },
+    {
+      "id": "author_003",
+      "name": "Xenofón",
+      "metaData": "Řecký historik a filozof, žák Sokrata, autor děl o historii a filozofii."
+    },
+    {
+      "id": "author_004",
+      "name": "Adam Roberts",
+      "metaData": "Současný britský spisovatel sci-fi a literární kritik."
+    },
+    {
+      "id": "author_005",
+      "name": "Adolf Hitler",
+      "metaData": "Německý diktátor a autor politických textů, zejména Mein Kampf."
+    },
+    {
+      "id": "author_006",
+      "name": "Albert Camus",
+      "metaData": "Francouzský filozof, spisovatel a nositel Nobelovy ceny za literaturu."
+    },
+    {
+      "id": "author_007",
+      "name": "Albert Einstein",
+      "metaData": "Fyzik známý teorií relativity, autor i populárně naučných textů."
+    },
+    {
+      "id": "author_008",
+      "name": "Albert Schweitzer",
+      "metaData": "Lékař, teolog a filozof, nositel Nobelovy ceny za mír."
+    },
+    {
+      "id": "author_009",
+      "name": "Aleš Klégr",
+      "metaData": "Český lingvista, odborník na češtinu a jazykovou kulturu."
+    },
+    {
+      "id": "author_010",
+      "name": "Alois Jirásek",
+      "metaData": "Český spisovatel a dramatik, autor historických románů."
+    },
+    {
+      "id": "author_011",
+      "name": "Anthony De Mello",
+      "metaData": "Indický kněz a duchovní učitel známý knihami o osobním rozvoji."
+    },
+    {
+      "id": "author_012",
+      "name": "Anthony Doerr",
+      "metaData": "Americký spisovatel, autor oceněného románu Světlo mezi oceány."
+    },
+    {
+      "id": "author_013",
+      "name": "Antoine de Saint-Exupéry",
+      "metaData": "Francouzský spisovatel a letec, autor Malého prince."
+    },
+    {
+      "id": "author_014",
+      "name": "Anton Rippon",
+      "metaData": "Britský spisovatel a novinář zaměřující se na sportovní literaturu."
+    },
+    {
+      "id": "author_015",
+      "name": "Arthur Conan Doyle",
+      "metaData": "Britský spisovatel, tvůrce Sherlocka Holmese."
+    },
+    {
+      "id": "author_016",
+      "name": "Barbara Winton",
+      "metaData": "Autorka zaměřující se na biografie a osobní příběhy."
+    },
+    {
+      "id": "author_017",
+      "name": "Benjamin Rochefort",
+      "metaData": "Francouzský spisovatel a básník."
+    },
+    {
+      "id": "author_018",
+      "name": "Blaise Pascal",
+      "metaData": "Francouzský matematik, filozof a spisovatel."
+    },
+    {
+      "id": "author_019",
+      "name": "Božena Němcová",
+      "metaData": "Česká spisovatelka, autorka Babičky."
+    },
+    {
+      "id": "author_020",
+      "name": "C. S. Lewis",
+      "metaData": "Britský spisovatel a teolog, autor Letopisů Narnie."
+    },
+    {
+      "id": "author_021",
+      "name": "Carlos Castaneda",
+      "metaData": "Americký autor známý knihami o šamanismu."
+    },
+    {
+      "id": "author_022",
+      "name": "Charles Baudelaire",
+      "metaData": "Francouzský básník a kritik, představitel symbolismu."
+    },
+    {
+      "id": "author_023",
+      "name": "Charles Bukowski",
+      "metaData": "Americký básník a spisovatel známý syrovým stylem."
+    },
+    {
+      "id": "author_024",
+      "name": "China Miéville",
+      "metaData": "Britský autor fantasy a sci-fi, představitel nového weirdu."
+    },
+    {
+      "id": "author_025",
+      "name": "Christa Schröder",
+      "metaData": "Autorka zaměřená na historické romány a biografie."
+    },
+    {
+      "id": "author_026",
+      "name": "Dale Carnegie",
+      "metaData": "Autor knih o osobním rozvoji a komunikaci."
+    },
+    {
+      "id": "author_027",
+      "name": "Dan Abnett",
+      "metaData": "Britský autor sci-fi a fantasy, známý z Warhammer univerza."
+    },
+    {
+      "id": "author_028",
+      "name": "Dan Brown",
+      "metaData": "Americký spisovatel thrillerů, autor Šifry mistra Leonarda."
+    },
+    {
+      "id": "author_029",
+      "name": "Dan Simmons",
+      "metaData": "Americký autor sci-fi a hororů."
+    },
+    {
+      "id": "author_030",
+      "name": "Dante Alighieri",
+      "metaData": "Italský básník, autor Božské komedie."
+    },
+    {
+      "id": "author_031",
+      "name": "David Gruber",
+      "metaData": "Český autor knih o osobním rozvoji, komunikaci a time managementu."
+    },
+    {
+      "id": "author_032",
+      "name": "David Michie",
+      "metaData": "Spisovatel známý populárně-naučnými knihami o buddhismu a spiritualitě."
+    },
+    {
+      "id": "author_033",
+      "name": "David Nicholls",
+      "metaData": "Britský autor románů a scénářů, známý knihou Jeden den."
+    },
+    {
+      "id": "author_034",
+      "name": "Denis Diderot",
+      "metaData": "Francouzský filozof a encyklopedista období osvícenství."
+    },
+    {
+      "id": "author_035",
+      "name": "Don Miguel Ruiz",
+      "metaData": "Mexický autor duchovních knih, zejména Čtyři dohody."
+    },
+    {
+      "id": "author_036",
+      "name": "Douglas Adams",
+      "metaData": "Britský autor sci-fi komedií, proslulý Stopařovým průvodcem po Galaxii."
+    },
+    {
+      "id": "author_037",
+      "name": "Dušan Karpatský",
+      "metaData": "Český překladatel, literární vědec a propagátor ruské literatury."
+    },
+    {
+      "id": "author_038",
+      "name": "Edgar Allan Poe",
+      "metaData": "Americký básník a autor hororových a detektivních povídek."
+    },
+    {
+      "id": "author_039",
+      "name": "Eduard Petiška",
+      "metaData": "Český spisovatel a autor knih pro děti i dospělé, známý především Starými řeckými bájemi a pověstmi."
+    },
+    {
+      "id": "author_040",
+      "name": "Eduard Štorch",
+      "metaData": "Český pedagog a spisovatel historických románů pro mládež."
+    },
+    {
+      "id": "author_041",
+      "name": "Egon Bondy",
+      "metaData": "Český básník, filozof a výrazná postava undergroundu."
+    },
+    {
+      "id": "author_042",
+      "name": "Émile Zola",
+      "metaData": "Francouzský spisovatel a novinář, představitel naturalismu."
+    },
+    {
+      "id": "author_043",
+      "name": "Emmanuel Levinas",
+      "metaData": "Francouzsko-litevský filozof, známý svým dílem o etice a jinakosti."
+    },
+    {
+      "id": "author_044",
+      "name": "Ernest Hemingway",
+      "metaData": "Americký spisovatel, nositel Nobelovy ceny, známý úsporným stylem psaní."
+    },
+    {
+      "id": "author_045",
+      "name": "Étienne Gilson",
+      "metaData": "Francouzský filozof a historik středověké filozofie."
+    },
+    {
+      "id": "author_046",
+      "name": "Evžen Boček",
+      "metaData": "Český autor humoristických knih, známý sérií Aristokratka."
+    },
+    {
+      "id": "author_047",
+      "name": "Fjodor Michajlovič Dostojevskij",
+      "metaData": "Ruský spisovatel, autor psychologických románů jako Zločin a trest."
+    },
+    {
+      "id": "author_048",
+      "name": "François Villon",
+      "metaData": "Francouzský básník 15. století, známý svými baladami."
+    },
+    {
+      "id": "author_049",
+      "name": "František Lukeš",
+      "metaData": "Český popularizátor vědy, autor a moderátor."
+    },
+    {
+      "id": "author_050",
+      "name": "Franz Kafka",
+      "metaData": "Pražský německy píšící autor známý absurdními a existenciálními texty."
+    },
+    {
+      "id": "author_051",
+      "name": "Frederick Forsyth",
+      "metaData": "Britský autor politických thrillerů jako Den pro Šakala."
+    },
+    {
+      "id": "author_052",
+      "name": "Fredrik Backman",
+      "metaData": "Švédský autor románů o mezilidských vztazích, např. Muž jménem Ove."
+    },
+    {
+      "id": "author_053",
+      "name": "Fredrik Brounéus",
+      "metaData": "Švédský autor a scenárista, známý humornými knihami."
+    },
+    {
+      "id": "author_054",
+      "name": "Gabriel García Márquez",
+      "metaData": "Kolumbijský autor magického realismu a nositel Nobelovy ceny."
+    },
+    {
+      "id": "author_055",
+      "name": "George Orwell",
+      "metaData": "Britský autor dystopických románů jako 1984 a Farma zvířat."
+    },
+    {
+      "id": "author_056",
+      "name": "Guy de Maupassant",
+      "metaData": "Francouzský autor povídek, známý realistickým stylem."
+    },
+    {
+      "id": "author_057",
+      "name": "Halina Birenbaum",
+      "metaData": "Polská spisovatelka a přeživší holokaustu."
+    },
+    {
+      "id": "author_058",
+      "name": "Harper Lee",
+      "metaData": "Americká autorka románu Jako zabít ptáčka."
+    },
+    {
+      "id": "author_059",
+      "name": "Helga Hošková-Weissová",
+      "metaData": "Česká výtvarnice a autorka deníku z Terezína."
+    },
+    {
+      "id": "author_060",
+      "name": "Henri Charrière",
+      "metaData": "Francouzský autor autobiografického románu Motýlek."
+    },
+    {
+      "id": "author_061",
+      "name": "Henri Stern",
+      "metaData": "Autor méně známý širší veřejnosti, často spojovaný s odbornými nebo historickými texty."
+    },
+    {
+      "id": "author_062",
+      "name": "Henry Miller",
+      "metaData": "Americký autor kontroverzních románů s autobiografickými prvky, např. Obratník Raka."
+    },
+    {
+      "id": "author_063",
+      "name": "Henryk Sienkiewicz",
+      "metaData": "Polský spisovatel a nositel Nobelovy ceny, známý historickými romány jako Quo Vadis."
+    },
+    {
+      "id": "author_064",
+      "name": "Hermann Hesse",
+      "metaData": "Německý autor filozofických románů jako Siddhártha nebo Stepní vlk."
+    },
+    {
+      "id": "author_065",
+      "name": "Honoré de Balzac",
+      "metaData": "Francouzský klasik a tvůrce rozsáhlé série Lidská komedie."
+    },
+    {
+      "id": "author_066",
+      "name": "Hugh Laurie",
+      "metaData": "Herec a autor, známý i románem Obchodník se smrtí."
+    },
+    {
+      "id": "author_067",
+      "name": "Iacobus Sprenger",
+      "metaData": "Spoluautor inkviziční příručky Kladivo na čarodějnice z 15. století."
+    },
+    {
+      "id": "author_068",
+      "name": "Ian R. MacLeod",
+      "metaData": "Britský autor sci-fi a fantasy s poetickým stylem psaní."
+    },
+    {
+      "id": "author_069",
+      "name": "Immanuel Kant",
+      "metaData": "Německý filozof, klíčová postava moderní filozofie, autor Kritiky čistého rozumu."
+    },
+    {
+      "id": "author_070",
+      "name": "Ingmar Bergman",
+      "metaData": "Švédský filmový režisér a spisovatel s existenciální tematikou."
+    },
+    {
+      "id": "author_071",
+      "name": "Irvine Welsh",
+      "metaData": "Skotský autor známý syrovými příběhy z okraje společnosti, např. Trainspotting."
+    },
+    {
+      "id": "author_072",
+      "name": "Ivan Alexandrovič Gončarov",
+      "metaData": "Ruský spisovatel, autor románu Oblomov o pasivitě a ztrátě motivace."
+    },
+    {
+      "id": "author_073",
+      "name": "Ivan Černý",
+      "metaData": "Český autor zaměřený na historické a odborné publikace."
+    },
+    {
+      "id": "author_074",
+      "name": "J. H. Krchovský",
+      "metaData": "Český básník s výrazným temným a ironickým stylem."
+    },
+    {
+      "id": "author_075",
+      "name": "J. K. Rowling",
+      "metaData": "Britská autorka série o Harrym Potterovi, fenoménu moderní literatury pro mládež."
+    },
+    {
+      "id": "author_076",
+      "name": "J. R. R. Tolkien",
+      "metaData": "Britský filolog a spisovatel, tvůrce světa Středozemě a Pána prstenů."
+    },
+    {
+      "id": "author_077",
+      "name": "Jáchym Topol",
+      "metaData": "Český prozaik a básník, jehož díla reflektují chaos a absurditu doby."
+    },
+    {
+      "id": "author_078",
+      "name": "Jack Canfield",
+      "metaData": "Autor motivačních knih, spoluautor série Slepičí polévka pro duši."
+    },
+    {
+      "id": "author_079",
+      "name": "Jack Kerouac",
+      "metaData": "Americký autor spojený s beatnickou generací, známý románem Na cestě."
+    },
+    {
+      "id": "author_080",
+      "name": "Jack London",
+      "metaData": "Americký autor dobrodružných románů jako Volání divočiny nebo Bílý tesák."
+    },
+    {
+      "id": "author_081",
+      "name": "James Trefil",
+      "metaData": "Americký fyzik a autor populárně-naučných knih o vědě pro laiky."
+    },
+    {
+      "id": "author_082",
+      "name": "Jan Drda",
+      "metaData": "Český autor próz, dramat a pohádek s výrazným lidovým tónem."
+    },
+    {
+      "id": "author_083",
+      "name": "Jan Otčenášek",
+      "metaData": "Český autor psychologických románů, např. Romeo, Julie a tma."
+    },
+    {
+      "id": "author_084",
+      "name": "Jan Randák",
+      "metaData": "Historik specializující se na dějiny 20. století, autor odborných publikací."
+    },
+    {
+      "id": "author_085",
+      "name": "Jan Werich",
+      "metaData": "Český herec, dramatik a spisovatel, známý svým humorem a moudrostí."
+    },
+    {
+      "id": "author_086",
+      "name": "Jane F. Gardner",
+      "metaData": "Autorka historických knih a odborné literatury zaměřené na antický Řím."
+    },
+    {
+      "id": "author_087",
+      "name": "Jarmila Loukotková",
+      "metaData": "Česká spisovatelka historických románů, oblíbená pro čtivý styl a pečlivou práci s fakty."
+    },
+    {
+      "id": "author_088",
+      "name": "Jaromír Štětina",
+      "metaData": "Český novinář, válečný reportér a spisovatel."
+    },
+    {
+      "id": "author_089",
+      "name": "Jaroslav Foglar",
+      "metaData": "Legendární český autor knih pro mládež, včetně série o Rychlých šípech."
+    },
+    {
+      "id": "author_090",
+      "name": "Jaroslav Hašek",
+      "metaData": "Český satirik, proslulý především Osudy dobrého vojáka Švejka."
+    },
+    {
+      "id": "author_091",
+      "name": "Jaroslav Rudiš",
+      "metaData": "Současný český spisovatel, scenárista a dramatik, známý románem „Nebe pod Berlínem“ a spoluprací na komiksech jako „Alois Nebel“."
+    },
+    {
+      "id": "author_092",
+      "name": "Jaroslav Seifert",
+      "metaData": "Český básník a publicista, laureát Nobelovy ceny za literaturu, známý svou lyrikou a občanskou angažovaností."
+    },
+    {
+      "id": "author_093",
+      "name": "Jean Giono",
+      "metaData": "Francouzský autor a pacifista, proslulý díly inspirovanými provensálskou krajinou, jako „Muž, který sázel stromy“."
+    },
+    {
+      "id": "author_094",
+      "name": "Jean-Michel Guenassia",
+      "metaData": "Francouzský spisovatel, autor úspěšného románu „Klub nenapravitelných optimistů“, který zobrazuje život v době studené války."
+    },
+    {
+      "id": "author_095",
+      "name": "Jerome Klapka Jerome",
+      "metaData": "Anglický humorista, známý svou klasickou komedií „Tři muži ve člunu (o psu nemluvě)“."
+    },
+    {
+      "id": "author_096",
+      "name": "Jiří Haller",
+      "metaData": "Český autor zaměřující se na odbornou a populárně naučnou literaturu, často s historickým zaměřením."
+    },
+    {
+      "id": "author_097",
+      "name": "Jiří Jilík",
+      "metaData": "Český novinář, spisovatel a publicista, věnuje se historii, regionální literatuře a záhadám."
+    },
+    {
+      "id": "author_098",
+      "name": "Johann Wolfgang Goethe",
+      "metaData": "Německý básník, dramatik a vědec, autor klasického díla „Faust“, významná osobnost německého romantismu."
+    },
+    {
+      "id": "author_099",
+      "name": "John Allyn",
+      "metaData": "Americký autor známý románem „Sedm samurajů“, inspirovaným japonskou historií a legendami."
+    },
+    {
+      "id": "author_100",
+      "name": "John Gottman",
+      "metaData": "Americký psycholog, známý výzkumem manželství a vztahů, autor knih jako „Sedm principů spokojeného manželství“."
+    },
+    {
+      "id": "author_101",
+      "name": "John Green",
+      "metaData": "Americký spisovatel young adult literatury, nejznámější díky románu „Hvězdy nám nepřály“."
+    },
+    {
+      "id": "author_102",
+      "name": "John Irving",
+      "metaData": "Americký autor oceňovaných románů jako „Svět podle Garpa“, často se věnuje tématům identity a rodiny."
+    },
+    {
+      "id": "author_103",
+      "name": "Jonas Jonasson",
+      "metaData": "Švédský autor absurdně laděných románů, proslulý knihou „Stoletý stařík, který vylezl z okna a zmizel“."
+    },
+    {
+      "id": "author_104",
+      "name": "Joris Karl Huysmans",
+      "metaData": "Francouzský spisovatel známý dekadentními romány, především „Naruby“, který ovlivnil celou generaci autorů."
+    },
+    {
+      "id": "author_105",
+      "name": "Josef Hiršal",
+      "metaData": "Český básník, překladatel a experimentální autor, známý svou spoluprací s Bohumilou Grögerovou."
+    },
+    {
+      "id": "author_106",
+      "name": "Josef Lukl Hromádka",
+      "metaData": "Český protestantský teolog, významná osobnost českého náboženského a společenského myšlení 20. století."
+    },
+    {
+      "id": "author_107",
+      "name": "Joseph Heller",
+      "metaData": "Americký spisovatel a satirik, autor slavného protiválečného románu „Hlava XXII“."
+    },
+    {
+      "id": "author_108",
+      "name": "Julio Cortázar",
+      "metaData": "Argentinský autor magického realismu, známý zejména díky románu „Nebem s hlavou dolů“."
+    },
+    {
+      "id": "author_109",
+      "name": "Karel Čapek",
+      "metaData": "Český spisovatel a novinář, autor sci-fi a dramat, známý díky pojmu „robot“ a hře „R.U.R.“."
+    },
+    {
+      "id": "author_110",
+      "name": "Karel Effa",
+      "metaData": "Český herec a autor, známý především jako výrazná postava filmové a divadelní scény."
+    },
+    {
+      "id": "author_111",
+      "name": "Karel Jaromír Erben",
+      "metaData": "Český básník a sběratel lidové slovesnosti, proslulý sbírkou balad „Kytice“."
+    },
+    {
+      "id": "author_112",
+      "name": "Karel Kyncl",
+      "metaData": "Český novinář, reportér a spisovatel, známý především svým působením v BBC a reportážemi z Británie."
+    },
+    {
+      "id": "author_113",
+      "name": "Karl Raimund Popper",
+      "metaData": "Rakousko-britský filozof, jeden z nejvýznamnějších myslitelů 20. století, známý obhajobou otevřené společnosti."
+    },
+    {
+      "id": "author_114",
+      "name": "Kateřina Tučková",
+      "metaData": "Současná česká autorka, proslavená románem „Žítkovské bohyně“ a důrazem na ženská a historická témata."
+    },
+    {
+      "id": "author_115",
+      "name": "Kathryn Stockett",
+      "metaData": "Americká autorka románu „Černobílý svět“, zabývajícího se rasovými otázkami v 60. letech v USA."
+    },
+    {
+      "id": "author_116",
+      "name": "Kolektiv autorů",
+      "metaData": "Označení pro publikace vytvořené více autory, často odborného či vzdělávacího charakteru."
+    },
+    {
+      "id": "author_117",
+      "name": "Ladislav Klíma",
+      "metaData": "Český filozof a prozaik, známý svým radikálním individualismem a filozofickou prózou."
+    },
+    {
+      "id": "author_118",
+      "name": "Leo Rosten",
+      "metaData": "Americký spisovatel, známý především knihou „Pan Kaplan má stále třídu rád“, humorně zobrazující život imigrantů."
+    },
+    {
+      "id": "author_119",
+      "name": "Leo Strauss",
+      "metaData": "Německo-americký filozof, zabýval se politickou filozofií a klasickými autory, ovlivnil moderní konzervativní myšlení."
+    },
+    {
+      "id": "author_120",
+      "name": "Leon Leyson",
+      "metaData": "Jeden z nejmladších Židů na Schindlerově seznamu, autor pamětí „Chlapec na dřevěné bedně“."
+    },
+    {
+      "id": "author_121",
+      "name": "Leopold von Sacher-Masoch",
+      "metaData": "Rakouský spisovatel, známý zejména novelou „Venuše v kožichu“. Po něm bylo pojmenováno masochistické chování."
+    },
+    {
+      "id": "author_122",
+      "name": "Lev Šestov",
+      "metaData": "Ruský filozof existencialismu, který zpochybňoval racionalismus a zdůrazňoval víru a iracionalitu."
+    },
+    {
+      "id": "author_123",
+      "name": "Louis De Bernières",
+      "metaData": "Britský autor, známý románem „Mandolína kapitána Corelliho“, zasazeným do období druhé světové války."
+    },
+    {
+      "id": "author_124",
+      "name": "Lucius Annaeus Seneca",
+      "metaData": "Římský filozof, dramatik a státník, představitel stoicismu, jehož spisy o etice ovlivnily západní myšlení."
+    },
+    {
+      "id": "author_125",
+      "name": "Marcus Aurelius",
+      "metaData": "Římský císař a stoický filozof, jeho „Hovory k sobě“ jsou dodnes uznávaným dílem filozofické literatury."
+    },
+    {
+      "id": "author_126",
+      "name": "Marcus Tullius Cicero",
+      "metaData": "Římský řečník, filozof a politik, známý svými spisy o rétorice, právu a politické filozofii."
+    },
+    {
+      "id": "author_127",
+      "name": "Marek Orko Vácha",
+      "metaData": "Český katolický kněz, biolog a spisovatel, autor knih o etice, přírodě a spiritualitě."
+    },
+    {
+      "id": "author_129",
+      "name": "Marie Doležalová",
+      "metaData": "Česká herečka a spisovatelka, autorka autobiografického blogu a knihy „Kafe a cigárko“."
+    },
+    {
+      "id": "author_130",
+      "name": "Mario Puzo",
+      "metaData": "Americký spisovatel italského původu, známý především díky románu „Kmotr“."
+    },
+    {
+      "id": "author_131",
+      "name": "Markus Zusak",
+      "metaData": "Australský autor, známý především díky románu „Zlodějka knih“ zasazenému do období nacistického Německa."
+    },
+    {
+      "id": "author_132",
+      "name": "Martin H. Greenberg",
+      "metaData": "Americký editor a autor science fiction a fantasy antologií, spolupracoval s mnoha známými autory žánru."
+    },
+    {
+      "id": "author_133",
+      "name": "Matěj Černý",
+      "metaData": "Český autor a překladatel, známý svým zaměřením na historická a odborná témata."
+    },
+    {
+      "id": "author_134",
+      "name": "Matthias Nöllke",
+      "metaData": "Německý autor populárně naučné literatury, zaměřující se na komunikaci, management a psychologii."
+    },
+    {
+      "id": "author_135",
+      "name": "Max Gallo",
+      "metaData": "Francouzský historik, spisovatel a politik, známý historickými romány a biografiemi významných osobností."
+    },
+    {
+      "id": "author_136",
+      "name": "Michael Grant",
+      "metaData": "Americký autor young adult literatury, známý sérií „Gone“, která spojuje sci-fi s dystopickými prvky."
+    },
+    {
+      "id": "author_137",
+      "name": "Michael John Harrison",
+      "metaData": "Britský autor science fiction a fantasy, známý svými poetickými a experimentálními texty."
+    },
+    {
+      "id": "author_138",
+      "name": "Michael Weber",
+      "metaData": "Spolutvůrce scénářů a knih v oblasti romantických dramat a komedií, např. „The Fault in Our Stars“."
+    },
+    {
+      "id": "author_139",
+      "name": "Michaela Losekoot",
+      "metaData": "Česká autorka zaměřující se na digitální marketing a komunikaci, známá pro svůj srozumitelný styl."
+    },
+    {
+      "id": "author_140",
+      "name": "Michail Bulgakov",
+      "metaData": "Ruský autor, nejvíce proslulý magicko-realistickým románem „Mistr a Markétka“."
+    },
+    {
+      "id": "author_141",
+      "name": "Michail Ševeljov",
+      "metaData": "Ukrajinský lingvista a autor, známý svými pracemi o slovanské filologii a kultuře."
+    },
+    {
+      "id": "author_142",
+      "name": "Michal Konečný",
+      "metaData": "Český autor a odborník na moderní technologie, zabývá se také vzděláváním a popularizací vědy."
+    },
+    {
+      "id": "author_143",
+      "name": "Michel Faber",
+      "metaData": "Nizozemsko-britský autor, známý díky románu „Pod kůží“, který kombinuje sci-fi a psychologii."
+    },
+    {
+      "id": "author_144",
+      "name": "Miguel de Cervantes y Saavedra",
+      "metaData": "Španělský autor slavného románu „Don Quijote“, jednoho ze základních děl světové literatury."
+    },
+    {
+      "id": "author_145",
+      "name": "Mika Waltari",
+      "metaData": "Finský autor historických románů, nejvíce známý knihou „Egypťan Sinuhet“."
+    },
+    {
+      "id": "author_146",
+      "name": "Milena Štráfeldová",
+      "metaData": "Česká autorka, novinářka a dramatička, věnuje se historickým tématům a rozhlasovým hrám."
+    },
+    {
+      "id": "author_147",
+      "name": "Miloslav Šimek",
+      "metaData": "Český humorista a spisovatel, známý svými scénkami, fejetony a spoluprací s Jiřím Grossmannem."
+    },
+    {
+      "id": "author_148",
+      "name": "Monica Sweeney",
+      "metaData": "Autorka motivačních a terapeutických knih pro dospívající i dospělé, často s humorným podtextem."
+    },
+    {
+      "id": "author_149",
+      "name": "Monika Nevolová",
+      "metaData": "Česká autorka, zaměřuje se na psychologii, vztahy a seberozvoj ve svých knihách i článcích."
+    },
+    {
+      "id": "author_150",
+      "name": "Muriel Barbery",
+      "metaData": "Francouzská autorka, proslavená románem „S elegancí ježka“, který spojuje filozofii a poetický styl."
+    },
+    {
+      "id": "author_151",
+      "name": "Neil Gaiman",
+      "metaData": "Britský autor fantasy a komiksů, známý především knihami jako „Američtí bohové“ nebo „Koralína“."
+    },
+    {
+      "id": "author_152",
+      "name": "Nick Hornby",
+      "metaData": "Britský autor populárních románů jako „Všechny moje lásky“ nebo „Jako rozený vítěz“, často o vztazích a hudbě."
+    },
+    {
+      "id": "author_153",
+      "name": "Olga Sommerová",
+      "metaData": "Česká dokumentaristka a autorka, zaměřuje se na silné ženské příběhy a společenská témata."
+    },
+    {
+      "id": "author_154",
+      "name": "Oscar Wilde",
+      "metaData": "Irský dramatik a spisovatel, známý svou břitkou ironií a knihou „Obraz Doriana Graye“."
+    },
+    {
+      "id": "author_155",
+      "name": "Patrick Süskind",
+      "metaData": "Německý autor slavného románu „Parfém“, který zkoumá posedlost vůní a genialitu i šílenství."
+    },
+    {
+      "id": "author_156",
+      "name": "Paulo Coelho",
+      "metaData": "Brazilský autor duchovních a filozofických románů, nejznámější je jeho kniha „Alchymista“."
+    },
+    {
+      "id": "author_157",
+      "name": "Peter Conradi",
+      "metaData": "Britský autor a novinář, věnuje se biografiím a historickým tématům, např. životopis Winstona Churchilla."
+    },
+    {
+      "id": "author_158",
+      "name": "Peter Høeg",
+      "metaData": "Dánský spisovatel, známý románem „Cit slečny Smilly pro sníh“, spojujícím thriller s filozofií."
+    },
+    {
+      "id": "author_159",
+      "name": "Petr Šabach",
+      "metaData": "Český spisovatel humoristických a nostalgických příběhů ze života, mnohé zfilmované."
+    },
+    {
+      "id": "author_160",
+      "name": "Rainer Maria Rilke",
+      "metaData": "Rakouský básník a prozaik, jeho díla jsou hluboce existenciální a lyrická, např. „Dopisy mladému básníkovi“."
+    },
+    {
+      "id": "author_161",
+      "name": "Ray Bradbury",
+      "metaData": "Americký autor sci-fi a fantasy, nejvíce známý románem „451 stupňů Fahrenheita“ o cenzuře a dystopii."
+    },
+    {
+      "id": "author_162",
+      "name": "Ray Laurence",
+      "metaData": "Historik specializující se na starověký Řím, autor populárně-naučných knih o každodenním životě Římanů."
+    },
+    {
+      "id": "author_163",
+      "name": "René Descartes",
+      "metaData": "Francouzský filozof, matematik a vědec, známý větou „Myslím, tedy jsem“ a základy novověké filozofie."
+    },
+    {
+      "id": "author_164",
+      "name": "Rick Falkvinge",
+      "metaData": "Zakladatel Švédské pirátské strany, autor knih o svobodě internetu, digitálních právech a občanských svobodách."
+    },
+    {
+      "id": "author_165",
+      "name": "Rob Wilkins",
+      "metaData": "Asistent a správce pozůstalosti Terryho Pratchetta, autor biografických a fanouškovských textů o jeho životě."
+    },
+    {
+      "id": "author_166",
+      "name": "Robert Evans",
+      "metaData": "Americký filmový producent a autor, známý svým vlivem na Hollywood 70. let a autobiografií „The Kid Stays in the Picture“."
+    },
+    {
+      "id": "author_167",
+      "name": "Robert Graves",
+      "metaData": "Britský autor historických románů, nejznámější díky „Já, Claudius“ a odborným studiím o mytologii."
+    },
+    {
+      "id": "author_168",
+      "name": "Robert Jackson",
+      "metaData": "Autor knih o vojenské historii, specializuje se na letectví a druhou světovou válku."
+    },
+    {
+      "id": "author_169",
+      "name": "Robert Louis Stevenson",
+      "metaData": "Skotský autor dobrodružných klasik jako „Ostrov pokladů“ a „Podivný případ Dr. Jekylla a pana Hyda“."
+    },
+    {
+      "id": "author_170",
+      "name": "Robert Merle",
+      "metaData": "Francouzský spisovatel historických a politických románů, např. série „Dědictví otců“ o francouzské historii."
+    },
+    {
+      "id": "author_171",
+      "name": "Rolf Sellin",
+      "metaData": "Německý psychoterapeut, zaměřuje se na vysoce citlivé osoby a osobní hranice, autor knih o emoční inteligenci."
+    },
+    {
+      "id": "author_172",
+      "name": "Rudolf Bultmann",
+      "metaData": "Německý teolog, který se snažil interpretovat Nový zákon existencialisticky a demytologizovat biblický text."
+    },
+    {
+      "id": "author_173",
+      "name": "Salman Rushdie",
+      "metaData": "Britsko-indický autor, proslulý románem „Satanské verše“, za který čelil fatwě, nositel řady literárních ocenění."
+    },
+    {
+      "id": "author_174",
+      "name": "Samuel Beckett",
+      "metaData": "Irský dramatik a prozaik, autor absurdního dramatu „Čekání na Godota“, nositel Nobelovy ceny za literaturu."
+    },
+    {
+      "id": "author_175",
+      "name": "Sergej Lukjaněnko",
+      "metaData": "Ruský autor sci-fi a fantasy, známý sérií „Noční hlídka“ a dalším urban fantasy dílem."
+    },
+    {
+      "id": "author_176",
+      "name": "Shlomo Venezia",
+      "metaData": "Italský přeživší Holocaustu, člen Sonderkommanda v Osvětimi, autor svědectví o nacistických zločinech."
+    },
+    {
+      "id": "author_177",
+      "name": "Simon Mawer",
+      "metaData": "Britský autor, známý historickým románem „Skleněný pokoj“, inspirovaným vilou Tugendhat v Brně."
+    },
+    {
+      "id": "author_178",
+      "name": "Spencer Johnson",
+      "metaData": "Americký autor motivačních knih, nejznámější titul „Kam se poděl můj sýr?“ o změně a přizpůsobení."
+    },
+    {
+      "id": "author_179",
+      "name": "Stefan Zweig",
+      "metaData": "Rakušan, autor psychologických novel a biografií, oblíbený pro svůj citlivý styl a vhled do lidské duše."
+    },
+    {
+      "id": "author_180",
+      "name": "Stephen Leacock",
+      "metaData": "Kanadský humorista, ekonom a pedagog, jeho povídky kombinují satiru a laskavý humor."
+    },
+    {
+      "id": "author_181",
+      "name": "Stephen W. Hawking",
+      "metaData": "Britský teoretický fyzik a autor populárně-vědeckých knih jako „Stručná historie času“."
+    },
+    {
+      "id": "author_182",
+      "name": "Suzy Kalter",
+      "metaData": "Americká cestopisná autorka a novinářka, známá pro své praktické průvodce a osobitý styl."
+    },
+    {
+      "id": "author_183",
+      "name": "Terry Pratchett",
+      "metaData": "Britský spisovatel známý sérií fantasy knih „Zeměplocha“ plnou humoru a společenské satiry."
+    },
+    {
+      "id": "author_184",
+      "name": "Thomas Berger",
+      "metaData": "Americký spisovatel, nejvíce proslul románem „Malý velký muž“, který paroduje westernový žánr."
+    },
+    {
+      "id": "author_185",
+      "name": "Thomas Michael Keneally",
+      "metaData": "Australský autor, známý díky románu „Schindlerův seznam“, podle kterého byl natočen slavný film."
+    },
+    {
+      "id": "author_186",
+      "name": "Timothy Leary",
+      "metaData": "Americký psycholog a zastánce psychedelických látek, proslulý sloganem „Turn on, tune in, drop out“."
+    },
+    {
+      "id": "author_187",
+      "name": "Timur Vermes",
+      "metaData": "Německý spisovatel a novinář, známý satirickým románem „Zpátky hezky v Česku“ o návratu Hitlera."
+    },
+    {
+      "id": "author_188",
+      "name": "Tom Felton",
+      "metaData": "Britský herec známý z Harryho Pottera, autor autobiografie „Beyond the Wand“ o své kariéře a životě."
+    },
+    {
+      "id": "author_189",
+      "name": "Tom Hanks",
+      "metaData": "Slavný americký herec a nově i spisovatel, autor povídek inspirovaných filmovým světem."
+    },
+    {
+      "id": "author_190",
+      "name": "Tomáš Garrigue Masaryk",
+      "metaData": "První československý prezident, filozof a autor politických a etických spisů o demokracii a humanismu."
+    },
+    {
+      "id": "author_191",
+      "name": "Truman Capote",
+      "metaData": "Americký autor, který proslul románem „Snídaně u Tiffanyho“ a dokumentárním dílem „Chladnokrevně“."
+    },
+    {
+      "id": "author_192",
+      "name": "Umberto Eco",
+      "metaData": "Italský sémiotik, filozof a autor historických románů jako „Jméno růže“ či „Foucaultovo kyvadlo“."
+    },
+    {
+      "id": "author_193",
+      "name": "Václav Havel",
+      "metaData": "Český dramatik, disident a prezident, autor absurdních her a esejí o lidských právech a svobodě."
+    },
+    {
+      "id": "author_194",
+      "name": "Victor Hugo",
+      "metaData": "Francouzský romantický autor, jehož díla „Bídníci“ a „Chrám Matky Boží v Paříži“ jsou světově známá."
+    },
+    {
+      "id": "author_195",
+      "name": "Vlastimil Třešňák",
+      "metaData": "Český písničkář a spisovatel, disident, jehož texty kombinují poezii, absurditu i politický podtext."
+    },
+    {
+      "id": "author_196",
+      "name": "Wacław Gołembowicz",
+      "metaData": "Polský autor známý svým absurdním a existencialistickým stylem psaní."
+    },
+    {
+      "id": "author_197",
+      "name": "William Saroyan",
+      "metaData": "Americký autor arménského původu, jehož příběhy jsou plné lidskosti, humoru a optimismu."
+    },
+    {
+      "id": "author_198",
+      "name": "William Shakespeare",
+      "metaData": "Nejslavnější dramatik všech dob, autor her jako „Hamlet“, „Romeo a Julie“ a „Macbeth“."
+    },
+    {
+      "id": "author_199",
+      "name": "William Styron",
+      "metaData": "Americký spisovatel, známý románem „Sophiina volba“ o traumatech druhé světové války."
+    },
+    {
+      "id": "author_200",
+      "name": "Zdeněk Jirotka",
+      "metaData": "Český humoristický spisovatel, nejvíce proslulý postavou Saturnina a jeho noblesním humorem."
+    },
+    {
+      "id": "author_201",
+      "name": "Jane Austenová",
+      "metaData": "Anglická spisovatelka klasických románů, známá především díky dílům jako Pýcha a předsudek či Rozum a cit."
+    },
+    {
+      "id": "author_202",
+      "name": "Andrzej Sapkowski",
+      "metaData": "Polský spisovatel fantasy, známý především díky sérii o Zaklínači."
+    },
+    {
+      "id": "author_203",
+      "name": "Mo Yan",
+      "metaData": "Čínský spisovatel, laureát Nobelovy ceny za literaturu, známý kombinací realismu a magického realismu."
+    },
+    {
+      "id": "author_204",
+      "name": "George R.R. Martin",
+      "metaData": "Americký spisovatel fantasy, autor ságy Píseň ledu a ohně (Hra o trůny)."
+    },
+    {
+      "id": "author_205",
+      "name": "Alison Weirová",
+      "metaData": "Britská spisovatelka historických románů, autorka série Šest Tudorovských královen."
+    },
+    {
+      "id": "author_206",
+      "name": "Frank Herbert",
+      "metaData": "Americký spisovatel sci-fi, autor epické ságy Duna."
+    },
+    {
+      "id": "author_207",
+      "name": "Suzanne Collinsová",
+      "metaData": "Americká spisovatelka dystopických románů, autorka série Hunger Games."
+    },
+    {
+      "id": "author_208",
+      "name": "Lenny Kravitz",
+      "metaData": "Americký hudebník a herec, autor hudebních memoárů Let Love Rule."
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "data": [
+    {
+      "id": "genre_01",
+      "genreName": "science fiction",
+      "description": "Literatura zaměřená na vědecké a technologické inovace, často s futuristickými nebo vesmírnými tématy."
+    },
+    {
+      "id": "genre_02",
+      "genreName": "poezie",
+      "description": "Umělecké vyjádření pomocí rytmického, často rýmovaného jazyka, vyjadřující emoce a myšlenky."
+    },
+    {
+      "id": "genre_03",
+      "genreName": "klasická literatura",
+      "description": "Díla uznávaná pro svou uměleckou hodnotu a význam v literárním dědictví."
+    },
+    {
+      "id": "genre_04",
+      "genreName": "román",
+      "description": "Rozsáhlejší prozaické dílo s propracovaným dějem a postavami."
+    },
+    {
+      "id": "genre_05",
+      "genreName": "historický román",
+      "description": "Román zasazený do reálných historických období, často kombinující fakta s fikcí."
+    },
+    {
+      "id": "genre_06",
+      "genreName": "společenský román",
+      "description": "Román zaměřený na popis a analýzu společenských vztahů a problémů."
+    },
+    {
+      "id": "genre_07",
+      "genreName": "fantasy",
+      "description": "Příběhy odehrávající se ve fiktivních světech, často s prvky magie a nadpřirozena."
+    },
+    {
+      "id": "genre_08",
+      "genreName": "dobrodružný román",
+      "description": "Napínavé příběhy plné akcí, cestování a nebezpečí."
+    },
+    {
+      "id": "genre_09",
+      "genreName": "humor",
+      "description": "Literatura zaměřená na pobavení čtenáře prostřednictvím vtipů a zábavných situací."
+    },
+    {
+      "id": "genre_10",
+      "genreName": "eseje",
+      "description": "Krátké úvahy nebo reflexe na různá témata, často subjektivní povahy."
+    },
+    {
+      "id": "genre_11",
+      "genreName": "filozofický",
+      "description": "Literatura zaměřená na otázky existence, poznání a etiky."
+    },
+    {
+      "id": "genre_12",
+      "genreName": "humorný",
+      "description": "Díla, která mají za cíl čtenáře rozesmát a pobavit."
+    },
+    {
+      "id": "genre_13",
+      "genreName": "psychologický román",
+      "description": "Román zaměřený na vnitřní svět postav a jejich psychické procesy."
+    },
+    {
+      "id": "genre_14",
+      "genreName": "autobiografie",
+      "description": "Životopis napsaný vlastní osobou, zachycující její zkušenosti a zážitky."
+    },
+    {
+      "id": "genre_15",
+      "genreName": "memoáry",
+      "description": "Vzpomínky autora na konkrétní období nebo události jeho života."
+    },
+    {
+      "id": "genre_16",
+      "genreName": "psychologie",
+      "description": "Literatura zabývající se studiem lidské mysli a chování."
+    },
+    {
+      "id": "genre_17",
+      "genreName": "tragédie",
+      "description": "Díla zobrazující vážné a často smutné události s nešťastným koncem."
+    },
+    {
+      "id": "genre_18",
+      "genreName": "romantický román",
+      "description": "Příběhy zaměřené na milostné vztahy a city."
+    },
+    {
+      "id": "genre_19",
+      "genreName": "epický román",
+      "description": "Rozsáhlý román s mnoha postavami a komplexním dějem."
+    },
+    {
+      "id": "genre_20",
+      "genreName": "povídková sbírka",
+      "description": "Soubor kratších příběhů různých témat a žánrů."
+    },
+    {
+      "id": "genre_21",
+      "genreName": "satira",
+      "description": "Dílo využívající humor, ironii a sarkasmus ke kritice společnosti."
+    },
+    {
+      "id": "genre_22",
+      "genreName": "magický realismus",
+      "description": "Kombinace realistického vyprávění s magickými prvky v běžném světě."
+    },
+    {
+      "id": "genre_23",
+      "genreName": "epická fantasy",
+      "description": "Rozsáhlé fantasy příběhy s propracovaným světem a mnoha postavami."
+    },
+    {
+      "id": "genre_24",
+      "genreName": "dobrodružné",
+      "description": "Příběhy plné napětí, akce a cestování."
+    },
+    {
+      "id": "genre_25",
+      "genreName": "biografický román",
+      "description": "Román založený na životě skutečné osoby, často s dramatizovanými prvky."
+    },
+    {
+      "id": "genre_26",
+      "genreName": "sci-fi",
+      "description": "Literatura zaměřená na vědecké a technologické inovace, často s futuristickými tématy."
+    },
+    {
+      "id": "genre_27",
+      "genreName": "epická sci-fi",
+      "description": "Rozsáhlé sci-fi příběhy s komplexním dějem a světem."
+    },
+    {
+      "id": "genre_28",
+      "genreName": "dystopie",
+      "description": "Příběhy zobrazující temné, často totalitní nebo zkreslené budoucí světy."
+    },
+    {
+      "id": "genre_29",
+      "genreName": "mladí dospělí",
+      "description": "Literatura zaměřená na čtenáře v období dospívání a rané dospělosti."
+    },
+    {
+      "id": "genre_30",
+      "genreName": "hudební biografie",
+      "description": "Životopisné příběhy zaměřené na hudebníky a jejich kariéru."
+    }
+  ]
+}
