@@ -7,21 +7,16 @@ export const App = () => {
   //const [,] = useState('');
 
   useEffect(() => {
-    if (!books) setBooks([]);
-    else {
-      const fetchBooks = async () => {
-        const response = await fetch(`api/books.json`);
-        const json = await response.json();
-        setTimeout(() => setBooks(json.data), 6000)
-      };
+    const fetchBooks = async () => {
+      const response = await fetch(`api/books.json`);
+      const json = await response.json();
+      setTimeout(() => {
+        setBooks(json.data);
+      }, 3000);
+    };
 
-      fetchBooks();
-    }
+    fetchBooks();
   }, []);
 
-  return (
-    
-      books ? <HomePage books={books} /> : <LoadingPage />
-    
-  );
+  return books.length > 0 ? <HomePage books={books} /> : <LoadingPage />;
 };
