@@ -6,6 +6,8 @@ export const App = () => {
   const [books, setBooks] = useState([]);
   //const [,] = useState('');
 
+
+
   useEffect(() => {
     if (!books) setItems([]);
     else {
@@ -21,7 +23,7 @@ export const App = () => {
 
   return (
     <>
-      <HomePage />
+      <HomePage books={books} />
     </>
   );
 };

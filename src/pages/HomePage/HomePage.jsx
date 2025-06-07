@@ -6,12 +6,15 @@ import './HomePage.css';
 import { AddBookForm } from '../../components/AddBookForm/AddBookForm';
 import { BookShelf } from '../../components/BookShelf/BookShelf';
 
-export const HomePage = () => {
+export const HomePage = ({books}) => {
+
+  console.log("homepage", books);
+  
   return (
     <>
       <Header />
       <div className="container">
-        <BookDetail />
+        <BookShelf books={books} />
       </div>
       <Footer />
     </>
