@@ -3,14 +3,14 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  height: 20vh;
+  min-height: 120px;
   width: 100%;
   position: relative;
   margin-bottom: 20px;
   background-size: 100% auto;
 }
 
-.only-desktop{
+.only-desktop {
   display: none;
 }
 
@@ -23,7 +23,7 @@
     display: flex;
   }
 
-  .only-desktop{
+  .only-desktop {
     display: inline-block;
     border: none;
     font-family: "Aboreto";
