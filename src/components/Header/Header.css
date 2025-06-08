@@ -14,26 +14,6 @@
   display: none;
 }
 
-@media screen and (min-width: 660px) {
-  .header {
-    background-image: none;
-    min-height: 60px;
-    height: 60px;
-    background-color: beige;
-    display: flex;
-  }
-
-  .only-desktop {
-    display: inline-block;
-    border: none;
-    font-family: "Aboreto";
-    background-color: transparent;
-    font-size: 2.5rem;
-    text-align: center;
-    padding-left: 1rem;
-  }
-}
-
 /*Naviagtion styles*/
 
 .nav-icon {
@@ -60,39 +40,34 @@
 }
 
 
-
-/* @media (min-width: 480px) {
+@media screen and (min-width: 400px) {
   .header {
-    background-size: 100% auto;
-    height: 23vh;
+    min-height: 180px;
+    width: 100%;
   }
-} */
+  }
 
-@media (min-width: 768px) {
+
+
+@media screen and (min-width: 660px) {
   .header {
-    background-size: 100% auto;
+    background-image: none;
+    min-height: 60px;
+    height: 60px;
+    background-color: beige;
+    display: flex;
+  }
+
+  .only-desktop {
+    display: inline-block;
+    border: none;
+    font-family: "Aboreto";
+    background-color: transparent;
+    font-size: 2.5rem;
+    text-align: center;
+    padding-left: 1rem;
+  }
+   .nav-icon img {
+    display: none;
   }
 }
-
-
-/* CSS: @media (min-width: 660px){
-.header-big {
-  display: flex; 
-  justify-content: flex-start;
-  min-height: 50px;
-  background-color: pink;
-  width: 100%;
-  padding: 1.5rem;
-}
-
-.header-title {
-  font-family: "Aboreto";
-  font-size: 3rem;
-  transition: color 0.3s ease;
- 
-}
-
-.header-title:hover{
-  color: rgb(172, 130, 137);
-}
-} */
