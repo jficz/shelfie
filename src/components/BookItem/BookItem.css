@@ -1,33 +1,114 @@
+/* .bookshelf {
+  perspective: 600px;
+  nastav perspektivu pro 3D efekt
+}
+
 .book-item {
-  border: 1px solid black;
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
-  overflow: hidden;
-}
+  justify-content: center;
 
-.book-item p {
-  transform: rotate(-90deg);
-  position: relative;
-}
+  padding: 10px;
+  width: var(--width);
+  height: var(--height);
 
-
-/* Doporučení chatGPT na efekt vysunutí knihy, nedopracováno */
-
-.bookshelf {
-  perspective: 600px;
-  /* nastav perspektivu pro 3D efekt */
-}
-
-.book-item {
-  transform-origin: bottom center;
-  /* osa otáčení dole uprostřed */
+  border: 1px solid black;
   transition: transform 0.3s ease;
   cursor: pointer;
+  transform-origin: bottom center;
 }
 
 .book-item:hover {
   transform: rotateX(-20deg);
-  /* vyklon dopředu */
+  
+}
+
+.book-text {
+  position: absolute;
+  left: var(--width);
+  bottom: 0;
+  transform: rotate(-90deg);
+  transform-origin: bottom left;
+  width: var(--height);
+  height: var(--width);
+  padding-inline: 10px;
+}
+
+.book-item-title {
+  font-size: 1rem;
+  margin: 0;
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.book-item-author {
+  font-style: italic;
+  opacity: 0.8;
+} */
+
+
+.bookshelf {
+  perspective: 800px;
+
+
+}
+
+.book-item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  width: var(--width);
+  height: var(--height);
+
+  border: 1px solid black;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  transform-origin: bottom center;
+
+}
+
+.book-item:hover {
+  transform: rotateX(-20deg);
+
+}
+
+.book-spine {
+  position: absolute;
+  left: var(--width);
+  bottom: 0;
+  transform: rotate(-90deg);
+  transform-origin: bottom left;
+  width: var(--height);
+  height: var(--width);
+  padding-inline: 10px;
+}
+
+.book-item-title {
+  font-size: 1rem;
+  margin: 0;
+
+}
+
+.book-link {
+  text-decoration: none;
+}
+
+.book-item-author {
+
+  font-style: italic;
+}
+
+.book-item-title,
+.book-item-author {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: black;
 }
