@@ -44,8 +44,9 @@
   .header {
     min-height: 180px;
     width: 100%;
+
   }
-  }
+}
 
 @media screen and (min-width: 660px) {
   .header {
@@ -54,6 +55,8 @@
     height: 60px;
     background-color: beige;
     display: flex;
+    margin: 0;
+    align-items: center;
   }
 
   .only-desktop {
@@ -64,8 +67,10 @@
     font-size: 2.5rem;
     text-align: center;
     padding-left: 1rem;
+    
   }
-   .nav-icon img {
+
+  .nav-icon img {
     display: none;
   }
 }
