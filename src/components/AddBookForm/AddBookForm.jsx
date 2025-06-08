@@ -1,6 +1,28 @@
+import { useState, useEffect } from 'react';
 import './AddBookForm.css';
 
 export const AddBookForm = () => {
+  const [books, setBooks] = useState([]);
+  const [authors, setAuthors] = useState([]);
+
+  useEffect(() => {
+    const fetchBooks = async () => {
+      const response = await fetch(`api/books.json`);
+      const json = await response.json();
+      setBooks(json.data);
+    };
+    fetchBooks();
+
+    const fetchAuthors = async () => {
+      const response = await fetch(`api/authors.json`);
+      const json = await response.json();
+      setAuthors(json.data);
+    };
+    fetchAuthors();
+  }, []);
+
+  //nemůžu fetchnout celé api a pak ho tu rozsekat?
+
   return (
     <form className="add-book-form">
       <div className="form-group">
@@ -43,3 +65,38 @@ export const AddBookForm = () => {
     </form>
   );
 };
+
+// const [books, setBooks] = useState([]);
+// const [authors, setAuthors] = useState([]);
+// const [genres, setGenres] = useState([]);
+// const [statuses, setStatuses] = useState([]);
+
+// useEffect(() => {
+//   const fetchBooks = async () => {
+//     const response = await fetch(`api/books.json`);
+//     const json = await response.json();
+//     setBooks(json.data);
+//   };
+//   fetchBooks();
+
+//   const fetchAuthors = async () => {
+//     const response = await fetch(`api/authors.json`);
+//     const json = await response.json();
+//     setAuthors(json.data);
+//   };
+//   fetchAuthors();
+
+//   const fetchGenres = async () => {
+//     const response = await fetch(`api/genres.json`);
+//     const json = await response.json();
+//     setGenres(json.data);
+//   };
+//   fetchGenres();
+
+//   const fetchStatuses = async () => {
+//     const response = await fetch(`api/bookStatus.json`);
+//     const json = await response.json();
+//     setStatuses(json.data);
+//   };
+//   fetchStatuses();
+// }, []);
