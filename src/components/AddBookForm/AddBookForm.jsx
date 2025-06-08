@@ -2,38 +2,15 @@ import { useState, useEffect, useId } from 'react';
 import './AddBookForm.css';
 import CreatableSelect from 'react-select/creatable';
 import Select from 'react-select';
-import { v4 as uuidv4 } from 'uuid';
+import { addAuthor } from '../../helpers/api-helpers';
 
 export const AddBookForm = () => {
-  const createOption = (label) => {
-    const id = uuidv4();
-    return {
-      label: label,
-      // value: label.toLowerCase().replace(/\W/g, ''),
-      value: id,
-    };
-  };
-
-  const authorOptions = [
-    createOption('Terry Pratchett'),
-    createOption('J.R.R. Tolkien'),
-    createOption('František Kotleta'),
-  ];
-  const genresOption = [createOption('Sci-fi'), createOption('Fantasy'), createOption('Román')];
-  const statusOption = [
-    createOption('Přečteno'),
-    createOption('Chci číst'),
-    createOption('Nepřečteno'),
-  ];
-
   const [formData, setFormData] = useState({});
   const [books, setBooks] = useState([]);
   const [authors, setAuthors] = useState([]);
   const [genres, setGenres] = useState([]);
   const [statuses, setStatuses] = useState([]);
   const [isLoadingSelect, setIsLoadingSelect] = useState(false);
-  const [optionsSelect, setOptionsSelect] = useState(authorOptions);
-  const [valueSelect, setValueSelect] = useState();
 
   useEffect(() => {
     const fetchBooks = async () => {
@@ -42,38 +19,53 @@ export const AddBookForm = () => {
       setBooks(json.data);
     };
     fetchBooks();
+  }, [books]);
 
+  useEffect(() => {
     const fetchAuthors = async () => {
       const response = await fetch(`api/authors.json`);
       const json = await response.json();
       setAuthors(json.data);
     };
     fetchAuthors();
+  }, []);
 
+  useEffect(() => {
     const fetchGenres = async () => {
       const response = await fetch(`api/genres.json`);
       const json = await response.json();
       setGenres(json.data);
     };
     fetchGenres();
+  }, [genres]);
 
+  useEffect(() => {
     const fetchStatuses = async () => {
       const response = await fetch(`api/bookStatus.json`);
       const json = await response.json();
       setStatuses(json.data);
     };
     fetchStatuses();
-  }, []);
+  }, [statuses]);
 
   const handleCreate = (inputValue, inputName) => {
     setIsLoadingSelect(true);
-    const newOption = createOption(inputValue);
     setTimeout(() => {
       setIsLoadingSelect(false);
-      setOptionsSelect((prev) => [...prev, newOption]);
-      setValueSelect(newOption);
+      console.log('input value:', inputValue);
+      const authorId = addAuthor({
+        name: inputValue,
+        metaData: '',
+      });
+      handleSelectChange(
+        {
+          label: inputValue,
+          value: authorId,
+        },
+        inputName,
+      );
+      setAuthors((prevState) => [...prevState, { label: inputValue, value: authorId }]);
     }, 1000);
-    handleSelectChange(newOption, inputName);
   };
 
   const handleChange = (e) => {
@@ -93,10 +85,11 @@ export const AddBookForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     alert(`Odeslat informace o knize?`);
+    console.log('onSubmit: FormData', formData);
   };
 
   return (
-    <form className="add-book-form">
+    <form className="add-book-form" onSubmit={handleSubmit}>
       <div className="form-group">
         <label htmlFor="isbn">ISBN</label>
         <input
@@ -114,9 +107,12 @@ export const AddBookForm = () => {
           isClearable
           isDisabled={isLoadingSelect}
           isLoading={isLoadingSelect}
-          options={optionsSelect}
+          options={authors.map((author) => ({
+            label: author.name,
+            value: author.id,
+          }))}
           onChange={(newValue) => handleSelectChange(newValue, 'author')}
-          onCreateOption={handleCreate}
+          onCreateOption={(newValue) => handleCreate(newValue, 'author')}
           value={formData.author || ''}
         />
       </div>
@@ -150,7 +146,10 @@ export const AddBookForm = () => {
         <Select
           isMulti
           name="genres"
-          options={genresOption}
+          options={genres.map((genre) => ({
+            label: genre.genreName,
+            value: genre.id,
+          }))}
           onChange={(newValue) => handleSelectChangeMulti(newValue, 'genre')}
           className="basic-multi-select"
           classNamePrefix="select"
@@ -165,15 +164,18 @@ export const AddBookForm = () => {
           isLoading={isLoadingSelect}
           isClearable
           name="status"
-          options={statusOption}
+          options={statuses.map((status) => ({
+            label: status.name,
+            value: status.id,
+          }))}
           onChange={(newValue) => {
             handleSelectChange(newValue, 'status');
           }}
-          value={formData.status}
+          value={formData.status || ''}
         />
       </div>
       <div className="form-buttons">
-        <button type="submit">Vyhledat ISBN</button>
+        {/* <button type="submit">Vyhledat ISBN</button> */}
         <button type="submit">Přidat knihu</button>
       </div>
     </form>

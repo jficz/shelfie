@@ -1,40 +1,33 @@
-export const getBooks = () =>
-  JSON.parse(localStorage.getItem("book"));
+import { v4 as uuidv4 } from 'uuid';
 
-export const getAuthors = () =>
-  JSON.parse(localStorage.getItem("author"));
+export const getBooks = () => JSON.parse(localStorage.getItem('book'));
 
-export const getBookStatus = () =>
-  JSON.parse(localStorage.getItem("bookStatus"));
+export const getAuthors = () => JSON.parse(localStorage.getItem('author'));
 
-export const getColors = () =>
-  JSON.parse(localStorage.getItem("colors"));
+export const getBookStatus = () => JSON.parse(localStorage.getItem('bookStatus'));
 
-export const getGenres = () =>
-  JSON.parse(localStorage.getItem("genres"));
+export const getColors = () => JSON.parse(localStorage.getItem('colors'));
 
+export const getGenres = () => JSON.parse(localStorage.getItem('genres'));
 
 export const deleteBook = (id) => {
   const books = getBooks();
-  const filteredBooks = books.filter((book)  => book.id !== id)
-  localStorage.setItem("book", JSON.stringify(filteredBooks))
-  return(books.length !== filteredBooks.length)
+  const filteredBooks = books.filter((book) => book.id !== id);
+  localStorage.setItem('book', JSON.stringify(filteredBooks));
+  return books.length !== filteredBooks.length;
 };
 
-export const addBook = (newbook) =>{
+export const addBook = (newBook) => {
   const books = getBooks();
-  const updatedBooks = [...books, newbook]
-  localStorage.setItem("book", JSON.stringify(updatedBooks))
+  const updatedBooks = [...books, newBook];
+  localStorage.setItem('book', JSON.stringify(updatedBooks));
 };
 
-
-export const addAuthors = (newauthor) =>{
+export const addAuthor = (newAuthor) => {
   const authors = getAuthors();
-  const updatedAuthors = [...authors, newauthor]
-  localStorage.setItem("author", JSON.stringify(updatedAuthors))
+  const newAuthorWithId = { ...newAuthor, id: uuidv4() };
+  const updatedAuthors = [...authors, newAuthorWithId];
+  localStorage.setItem('author', JSON.stringify(updatedAuthors));
+  console.log(newAuthor);
+  return newAuthorWithId.id;
 };
- 
-
-
-
-
