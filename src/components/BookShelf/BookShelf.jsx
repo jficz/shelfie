@@ -2,23 +2,20 @@ import { BookItem } from '../BookItem/BookItem';
 import { useEffect } from 'react';
 import { useState } from 'react';
 import './BookShelf.css';
+import { getBooks, getAuthors } from '../../helpers/api-helpers';
 
 export const BookShelf = () => {
   const [books, setBooks] = useState([]);
   const [authors, setAuthors] = useState([]);
 
   useEffect(() => {
-    const fetchBooks = async () => {
-      const response = await fetch(`api/books.json`);
-      const json = await response.json();
-      setBooks(json.data);
+    const fetchBooks = () => {
+      setBooks(getBooks());
     };
     fetchBooks();
 
-    const fetchAuthors = async () => {
-      const response = await fetch(`api/authors.json`);
-      const json = await response.json();
-      setAuthors(json.data);
+    const fetchAuthors = () => {
+      setAuthors(getAuthors);
     };
     fetchAuthors();
   }, []);
@@ -40,24 +37,14 @@ export const BookShelf = () => {
     <div className="bookshelf-wrapper">
       <div className="bookshelf">
         {combined.slice(0, 7).map((book) => (
-          <BookItem
-            key={book.id}
-            bookId={book.id}
-            title={book.title}
-            author={book.author}
-          />
+          <BookItem key={book.id} bookId={book.id} title={book.title} author={book.author} />
         ))}
       </div>
       <div className="shelf"></div>
 
       <div className="bookshelf">
         {combined.slice(8, 15).map((book) => (
-          <BookItem
-            key={book.id}
-            bookId={book.id}
-            title={book.title}
-            author={book.author}
-          />
+          <BookItem key={book.id} bookId={book.id} title={book.title} author={book.author} />
         ))}
       </div>
       <div className="shelf"></div>

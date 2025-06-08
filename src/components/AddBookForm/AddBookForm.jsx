@@ -2,7 +2,15 @@ import { useState, useEffect, useId } from 'react';
 import './AddBookForm.css';
 import CreatableSelect from 'react-select/creatable';
 import Select from 'react-select';
-import { addAuthor } from '../../helpers/api-helpers';
+import {
+  addAuthor,
+  addBook,
+  getAuthors,
+  getBooks,
+  getBookStatus,
+  getGenres,
+} from '../../helpers/api-helpers';
+import { useNavigate } from 'react-router-dom';
 
 export const AddBookForm = () => {
   const [formData, setFormData] = useState({});
@@ -13,37 +21,29 @@ export const AddBookForm = () => {
   const [isLoadingSelect, setIsLoadingSelect] = useState(false);
 
   useEffect(() => {
-    const fetchBooks = async () => {
-      const response = await fetch(`api/books.json`);
-      const json = await response.json();
-      setBooks(json.data);
+    const fetchBooks = () => {
+      setBooks(getBooks());
     };
     fetchBooks();
   }, [books]);
 
   useEffect(() => {
-    const fetchAuthors = async () => {
-      const response = await fetch(`api/authors.json`);
-      const json = await response.json();
-      setAuthors(json.data);
+    const fetchAuthors = () => {
+      setAuthors(getAuthors);
     };
     fetchAuthors();
-  }, []);
+  }, [authors]);
 
   useEffect(() => {
-    const fetchGenres = async () => {
-      const response = await fetch(`api/genres.json`);
-      const json = await response.json();
-      setGenres(json.data);
+    const fetchGenres = () => {
+      setGenres(getGenres);
     };
     fetchGenres();
   }, [genres]);
 
   useEffect(() => {
     const fetchStatuses = async () => {
-      const response = await fetch(`api/bookStatus.json`);
-      const json = await response.json();
-      setStatuses(json.data);
+      setStatuses(getBookStatus);
     };
     fetchStatuses();
   }, [statuses]);
@@ -82,10 +82,12 @@ export const AddBookForm = () => {
     setFormData((values) => ({ ...values, [inputName]: [...newValue] }));
   };
 
+  const navigate = useNavigate();
+
   const handleSubmit = (e) => {
     e.preventDefault();
-    alert(`Odeslat informace o knize?`);
-    console.log('onSubmit: FormData', formData);
+    addBook(formData);
+    navigate('/');
   };
 
   return (
