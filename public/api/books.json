@@ -771,8 +771,8 @@
       "format": "paperBook"
     },
     {
-      "id": "author_208",
-      "authorId": "author_001",
+      "id": "book_056",
+      "authorId": "author_208",
       "title": "Let Love Rule",
       "bookCover": null,
       "genreId": ["genre_15", "genre_30"],
