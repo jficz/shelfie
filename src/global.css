@@ -20,12 +20,13 @@ body {
   background-color: var(--background-color);
   color: #222;
   font-family: var(--font-family);
+  
 }
 
 #app {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  min-height: 100vh;
   /*justify-content: space-between;
   align-items: center;*/
 }
