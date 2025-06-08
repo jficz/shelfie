@@ -23,13 +23,17 @@ export const deleteBook = (id) => {
 
 export const addBook = (newbook) =>{
   const books = getBooks();
-  const updateBooks = [...books, newbook]
-  localStorage.setItem("book", JSON.stringify(updateBooks))
+  const updatedBooks = [...books, newbook]
+  localStorage.setItem("book", JSON.stringify(updatedBooks))
 };
 
 
-
-
+export const addAuthors = (newauthor) =>{
+  const authors = getAuthors();
+  const updatedAuthors = [...authors, newauthor]
+  localStorage.setItem("author", JSON.stringify(updatedAuthors))
+};
+ 
 
 
 
