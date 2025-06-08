@@ -38,3 +38,11 @@
   transform: rotate(0deg) scale(1.02);
   box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.3);
 }
+
+@media screen and (min-width: 660px) {
+  .button-menu {
+   top: 20px;
+   right: 20px;
+  }
+  
+  }
