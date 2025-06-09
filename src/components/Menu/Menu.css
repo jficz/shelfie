@@ -3,6 +3,7 @@
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
   width: 80%;
   min-width: 270px;
+  max-width: 400px;
   position: fixed;
   right: 30px;
   bottom: 30px;
@@ -21,8 +22,9 @@
   width: 100%;
   padding: 10px;
   border: none;
-  background-color: #e7eee8;
-  color: var(--font-color)
+  background-color: #c1c8c2;
+  color: #e6eee7;
+  text-decoration: none;
 }
 
 .list-button img {
@@ -37,11 +39,16 @@
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
+.list-item:first-child .list-button {
+  background-color: #E3EFE5;
+  color: rgba(48, 47, 46, 1)
+}
+
 @media screen and (min-width: 660px) {
-  .expanded-menu{
+  .expanded-menu {
     top: 30px;
     right: 30px;
     max-height: 100px;
   }
-  
-  }
+
+}

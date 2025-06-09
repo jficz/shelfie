@@ -6,7 +6,7 @@ export const Menu = ({ onLink }) => {
     <nav className="expanded-menu">
       <ul>
         <li className="list-item">
-          <Link to={'pridat-knihu'} onClick={onLink}>
+          <Link to={'pridat-knihu'} onClick={onLink} style={{ textDecoration: 'none' }}>
             <button className="list-button">
               <img src="../assets/icons/plus.png" alt="Přidat knihu" />
               Přidat knihu
