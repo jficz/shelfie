@@ -14,39 +14,35 @@ import { useNavigate } from 'react-router-dom';
 
 export const AddBookForm = () => {
   const [formData, setFormData] = useState({});
-  const [books, setBooks] = useState([]);
   const [authors, setAuthors] = useState([]);
   const [genres, setGenres] = useState([]);
   const [statuses, setStatuses] = useState([]);
   const [isLoadingSelect, setIsLoadingSelect] = useState(false);
-
-  useEffect(() => {
-    const fetchBooks = () => {
-      setBooks(getBooks());
-    };
-    fetchBooks();
-  }, [books]);
+  const [authorsVersion, setAuthorsVersion] = useState(0);
 
   useEffect(() => {
     const fetchAuthors = () => {
-      setAuthors(getAuthors);
+      const authorsData = getAuthors();
+      setAuthors(authorsData);
     };
     fetchAuthors();
-  }, [authors]);
+  }, [authorsVersion]);
 
   useEffect(() => {
     const fetchGenres = () => {
-      setGenres(getGenres);
+      const genresData = getGenres();
+      setGenres(genresData);
     };
     fetchGenres();
-  }, [genres]);
+  }, []);
 
   useEffect(() => {
     const fetchStatuses = async () => {
-      setStatuses(getBookStatus);
+      const statusesData = getBookStatus();
+      setStatuses(statusesData);
     };
     fetchStatuses();
-  }, [statuses]);
+  }, []);
 
   const handleCreate = (inputValue, inputName) => {
     setIsLoadingSelect(true);
@@ -57,6 +53,7 @@ export const AddBookForm = () => {
         name: inputValue,
         metaData: '',
       });
+      setAuthorsVersion((prevState) => prevState + 1);
       handleSelectChange(
         {
           label: inputValue,
