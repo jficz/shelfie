@@ -2,8 +2,6 @@ import { Link, Navigate } from 'react-router-dom';
 import './Header.css';
 
 export const Header = () => {
-
-  
   return (
     <>
       <header className="header">
@@ -12,7 +10,13 @@ export const Header = () => {
             <img src="assets/icons/home.png" alt="Home" />
           </a>
         </nav>
-        <Link to={"/"}><button className="only-desktop">SHELFIE</button></Link>
+        <Link to={'/'}>
+          <img className="logo-header-small" src="assets/logo_small.png"></img>
+        </Link>
+        <Link to={'/'}>
+          <button className="only-desktop">SHELFIE</button>
+        </Link>
+        
       </header>
     </>
   );

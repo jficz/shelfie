@@ -39,6 +39,15 @@
   display: block;
 }
 
+.logo-header-small {
+  /*left: 20px;
+  top: 20px;*/
+  display: block;
+  width: 3rem;
+  margin-top: 8px;
+  margin-left: 10px;
+}
+
 
 @media screen and (min-width: 400px) {
   .header {
@@ -67,10 +76,14 @@
     font-size: 2.5rem;
     text-align: center;
     padding-left: 1rem;
-    
+
   }
 
   .nav-icon img {
     display: none;
   }
+
+  .logo-header-small {
+ margin-bottom: 8px;
+}
 }
