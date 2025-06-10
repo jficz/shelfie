@@ -71,11 +71,12 @@
   transition: transform 0.3s ease;
   cursor: pointer;
   transform-origin: bottom center;
+  border-radius: 2px;
 
 }
 
 .book-item:hover {
-  transform: rotateX(-20deg);
+  transform: scale(1.1);
 
 }
 
@@ -88,6 +89,9 @@
   width: var(--height);
   height: var(--width);
   padding-inline: 10px;
+  box-shadow: inset 0 0 10px black;
+  border-radius: 2px;
+
 }
 
 .book-item-title {
@@ -103,6 +107,8 @@
 .book-item-author {
 
   font-style: italic;
+  font-size: 0.8rem;
+
 }
 
 .book-item-title,
@@ -110,5 +116,5 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  color: black;
+  color: rgb(255, 255, 255);
 }
