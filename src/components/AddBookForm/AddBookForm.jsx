@@ -1,4 +1,4 @@
-import { useState, useEffect, useId } from 'react';
+import { useState, useEffect } from 'react';
 import './AddBookForm.css';
 import CreatableSelect from 'react-select/creatable';
 import Select from 'react-select';
@@ -6,7 +6,6 @@ import {
   addAuthor,
   addBook,
   getAuthors,
-  getBooks,
   getBookStatus,
   getGenres,
 } from '../../helpers/api-helpers';
@@ -44,6 +43,8 @@ export const AddBookForm = () => {
     fetchStatuses();
   }, []);
 
+  console.log('formData', formData);
+
   const handleCreate = (inputValue, inputName) => {
     setIsLoadingSelect(true);
     setTimeout(() => {
@@ -72,11 +73,12 @@ export const AddBookForm = () => {
   };
 
   const handleSelectChange = (newValue, inputName) => {
-    setFormData((values) => ({ ...values, [inputName]: newValue }));
+    setFormData((values) => ({ ...values, [inputName]: newValue.value }));
   };
 
   const handleSelectChangeMulti = (newValue, inputName) => {
-    setFormData((values) => ({ ...values, [inputName]: [...newValue] }));
+    const value = newValue.map((item) => item.value);
+    setFormData((values) => ({ ...values, [inputName]: value }));
   };
 
   const navigate = useNavigate();
@@ -112,9 +114,16 @@ export const AddBookForm = () => {
             label: author.name,
             value: author.id,
           }))}
-          onChange={(newValue) => handleSelectChange(newValue, 'author')}
-          onCreateOption={(newValue) => handleCreate(newValue, 'author')}
-          value={formData.author || ''}
+          onChange={(newValue) => handleSelectChange(newValue, 'authorId')}
+          onCreateOption={(newValue) => handleCreate(newValue, 'authorId')}
+          value={
+            authors.find((author) => author.id === formData.authorId)
+              ? {
+                  label: authors.find((author) => author.id === formData.authorId).name,
+                  value: authors.find((author) => author.id === formData.authorId).id,
+                }
+              : null
+          }
         />
       </div>
 
@@ -153,7 +162,7 @@ export const AddBookForm = () => {
             label: genre.genreName,
             value: genre.id,
           }))}
-          onChange={(newValue) => handleSelectChangeMulti(newValue, 'genre')}
+          onChange={(newValue) => handleSelectChangeMulti(newValue, 'genreId')}
         />
       </div>
 
@@ -170,9 +179,16 @@ export const AddBookForm = () => {
             value: status.id,
           }))}
           onChange={(newValue) => {
-            handleSelectChange(newValue, 'status');
+            handleSelectChange(newValue, 'statusId');
           }}
-          value={formData.status || ''}
+          value={
+            statuses.find((status) => status.id === formData.statusId)
+              ? {
+                  label: statuses.find((status) => status.id === formData.statusId).name,
+                  value: statuses.find((status) => status.id === formData.statusId).id,
+                }
+              : null
+          }
         />
       </div>
       <div className="form-buttons">

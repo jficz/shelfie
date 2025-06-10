@@ -50,14 +50,8 @@ export const BookDetail = () => {
 
   const book = books.find((item) => item.id === bookId);
   const author = authors.find((item) => item.id === book.authorId);
-  //const status = statuses.find((item) => item.id === book.status);
-
   const status = statuses.find((item) => {
-    console.log('ITEM ID', item.id);
-    console.log('BOOK STATUS book.statusId', book.statusId);
-    console.log('BOOK', book);
-
-    return item.id === book.statusId;
+    item.id === book.statusId;
   });
 
   const bookGenreIds = book.genreId;
@@ -78,7 +72,7 @@ export const BookDetail = () => {
           <h2 className="book-author">{author.name}</h2>
 
           <div className="book-status-badge">
-            <span>{status}</span>
+            <span>{status.name}</span>
           </div>
 
           <div className="book-description">

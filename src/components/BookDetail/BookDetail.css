@@ -37,6 +37,8 @@
   font-size: 1.2rem;
   color: #555;
   margin: 0;
+  text-shadow: 2px 2px 2px rgb(171, 169, 169);
+
 }
 
 .book-status-badge span {

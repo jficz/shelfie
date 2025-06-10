@@ -19,7 +19,8 @@ export const deleteBook = (id) => {
 
 export const addBook = (newBook) => {
   const books = getBooks();
-  const updatedBooks = [...books, newBook];
+  const newBookWithId = { ...newBook, id: uuidv4() };
+  const updatedBooks = [...books, newBookWithId];
   localStorage.setItem('book', JSON.stringify(updatedBooks));
 };
 
@@ -28,6 +29,5 @@ export const addAuthor = (newAuthor) => {
   const newAuthorWithId = { ...newAuthor, id: uuidv4() };
   const updatedAuthors = [...authors, newAuthorWithId];
   localStorage.setItem('author', JSON.stringify(updatedAuthors));
-  console.log(newAuthor);
   return newAuthorWithId.id;
 };

@@ -49,6 +49,11 @@
   cursor: pointer;
 }
 
+.nav-icon--home:active {
+  background-color: #a8cf31;
+  border-radius: 6px;
+}
+
 /*uprav velkost ikon*/
 
 .nav-icon img {
