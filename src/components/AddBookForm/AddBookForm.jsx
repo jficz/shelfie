@@ -103,6 +103,8 @@ export const AddBookForm = () => {
       <div className="form-group">
         <label htmlFor="author">Autor</label>
         <CreatableSelect
+          classNamePrefix="select-inputs"
+          placeholder=""
           isClearable
           isDisabled={isLoadingSelect}
           isLoading={isLoadingSelect}
@@ -143,6 +145,8 @@ export const AddBookForm = () => {
       <div className="form-group">
         <label htmlFor="genre">Žánr</label>
         <Select
+          classNamePrefix="select-inputs"
+          placeholder=""
           isMulti
           name="genres"
           options={genres.map((genre) => ({
@@ -150,16 +154,14 @@ export const AddBookForm = () => {
             value: genre.id,
           }))}
           onChange={(newValue) => handleSelectChangeMulti(newValue, 'genre')}
-          className="basic-multi-select"
-          classNamePrefix="select"
         />
       </div>
 
       <div className="form-group">
         <label htmlFor="status">Stav</label>
         <Select
-          className="basic-single"
-          classNamePrefix="select"
+          classNamePrefix="select-inputs"
+          placeholder=""
           isLoading={isLoadingSelect}
           isClearable
           name="status"

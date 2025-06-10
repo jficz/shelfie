@@ -10,7 +10,7 @@ export const App = () => {
     SaveFilesToLocalStorage();
   }, []);
 
-  setTimeout(() => setShowHomePage(true), 3000);
+  setTimeout(() => setShowHomePage(true), 1000);
 
   return <>{showHomePage ? <HomePage /> : <LoadingPage />}</>;
 };

@@ -5,7 +5,8 @@
 }
 
 :root {
-  --background-color: #E3EFE5;
+  --background-color-green: #E3EFE5;
+  --accent-color-beige: #e1ccc3;
   --shelf-color: #b27c5c;
   --book-shadow: rgba(0, 0, 0, 0.2);
   --font-main: 'Segoe UI', sans-serif;
@@ -17,10 +18,10 @@
 html,
 body {
   height: 100%;
-  background-color: var(--background-color);
+  background-color: var(--background-color-green);
   color: #222;
   font-family: var(--font-family);
-  
+
 }
 
 #app {

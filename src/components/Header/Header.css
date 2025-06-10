@@ -29,6 +29,7 @@
 .nav-icon--home {
   top: 1rem;
   right: 1rem;
+  cursor: pointer;
 }
 
 /*uprav velkost ikon*/
@@ -62,7 +63,7 @@
     background-image: none;
     min-height: 60px;
     height: 60px;
-    background-color: beige;
+    background-color: var(--accent-color-beige);
     display: flex;
     margin: 0;
     align-items: center;

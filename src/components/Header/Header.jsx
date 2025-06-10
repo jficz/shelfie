@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import './Header.css';
 import { useState, useEffect, useRef } from 'react';
 import { Menu } from '../Menu/Menu';
@@ -7,6 +7,12 @@ export const Header = () => {
   const [menuOpened, setMenuOpened] = useState(false);
   const menuRef = useRef(null);
   const iconRef = useRef(null);
+
+  const location = useLocation();
+
+  useEffect(() => {
+    setMenuOpened(false);
+  }, [location.pathname]);
 
   const handleClick = () => {
     setMenuOpened(!menuOpened);

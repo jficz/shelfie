@@ -8,7 +8,7 @@
   right: 10px;
   top: 50px;
   z-index: 1;
-  background-color: #E3EFE5;
+  background-color: var(--background-color-green)
 }
 
 .list-item {
@@ -42,7 +42,7 @@
 }
 
 .list-item:first-child .list-button {
-  background-color: #E3EFE5;
+  background-color: var(--background-color-green);
   color: rgba(48, 47, 46, 1)
 }
 
@@ -50,7 +50,7 @@
   .expanded-menu {
     top: 30px;
     right: 30px;
-    max-height: 100px;
+    height: fit-content;
   }
 
 }

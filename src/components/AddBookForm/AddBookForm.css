@@ -5,9 +5,8 @@
   min-width: 385px;
   margin: 0;
   padding: 1.5rem;
-  background-color: var(--background-color);
-  color: rgba(48, 47, 46, 1);
-
+  background-color: var(--background-color-green);
+  color: var(--font-color)
 }
 
 .form-group {
@@ -23,54 +22,86 @@
   font-size: 1.2rem;
 }
 
+#isbn,
+#title,
+#pages {
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
 .form-group input,
 .form-group select {
-
+  color: var(--font-color);
   padding: 0.5rem;
-  border: 1px solid #ccc;
+  border: 1px solid #e1ccc3;
   border-radius: 0.2rem;
   font-size: 1.2rem;
   background-size: cover;
-  /* box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.5);
-  text-shadow: 7px 7px 7px rgb(255, 255, 255); */
+  background-color: hsl(26, 31%, 92%);
+  text-shadow: 7px 7px 7px rgb(255, 255, 255);
 }
 
-/* .form-group #isbn {
+.select-inputs__control,
+.select-inputs__single-value,
+.select-inputs__input input,
+.select-inputs__placeholder {
+  color: var(--font-color) !important;
+}
+
+.select-inputs__control div {
+  color: var(--font-color) !important;
+}
+
+.select-inputs__value-container {
+  color: var(--font-color) !important;
+}
+
+.select-inputs__option {
+  color: var(--font-color) !important;
+}
+
+.react-select__input {
+  line-height: normal !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  transform: none !important;
+  position: relative !important;
+  top: 0 !important;
+}
+
+.select-inputs__control {
+  background-image: linear-gradient(rgba(230, 230, 230, 0.7), rgba(230, 230, 230, 0.7)),
+    url(../../assets/shelf_05_small.png);
+  background-color: rgba(249, 247, 246, 0.983) !important;
+  border-color: #e1ccc3 !important;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.5) !important;
+}
+
+.select-inputs__indicator-separator {
+  background-color: hsl(26, 31%, 62%) !important;
+}
+
+.select-inputs__dropdown-indicator svg {
+  fill: hsl(26, 31%, 52%);
+  border-left: none;
+}
+
+.form-group #isbn {
   background-image:
-    linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)),
+    linear-gradient(rgba(230, 230, 230, 0.7), rgba(230, 230, 230, 0.7)),
     url(../../assets/shelf_01_small.png);
-}
-
-.form-group #author {
-  background-image:
-    linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)),
-    url(../../assets/shelf_02_small.png);
 }
 
 .form-group #title {
   background-image:
-    linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)),
+    linear-gradient(rgba(230, 230, 230, 0.7), rgba(230, 230, 230, 0.7)),
     url(../../assets/shelf_03_small.png);
 }
 
 .form-group #pages {
   background-image:
-    linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)),
+    linear-gradient(rgba(230, 230, 230, 0.7), rgba(230, 230, 230, 0.7)),
     url(../../assets/shelf_04_small.png);
 }
-
-.form-group #genre {
-  background-image:
-    linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)),
-    url(../../assets/shelf_05_small.png);
-}
-
-.form-group #status {
-  background-image:
-    linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)),
-    url(../../assets/shelf_06_small.png);
-
-} */
 
 .form-buttons {
   display: flex;
@@ -79,18 +110,23 @@
 }
 
 button[type="submit"] {
-  background-color: #fff9b1;
+  background-image: url(../../assets/shelf_05_small.png);
+  background-size: initial;
+  background-color: var(--accent-color-beige);
   border: none;
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
   padding: 1rem 1.5rem;
-  font-size: 1rem;
+  font-size: 1.4rem;
   transform: rotate(-2deg);
   cursor: pointer;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   cursor: pointer;
-  width: 8rem;
-  height: 5rem;
+  width: 15rem;
+  height: 4rem;
   text-align: center;
+  text-shadow:
+    1px 1px 0 #f1dbd1,
+    -1px -1px 0 #f1dbd1;
 }
 
 button[type="submit"]:hover {
