@@ -50,9 +50,7 @@ export const BookDetail = () => {
 
   const book = books.find((item) => item.id === bookId);
   const author = authors.find((item) => item.id === book.authorId);
-  const status = statuses.find((item) => {
-    item.id === book.statusId;
-  });
+  const status = statuses.find((item) => item.id === book.statusId);
 
   const bookGenreIds = book.genreId;
   const actualGenres = genres
