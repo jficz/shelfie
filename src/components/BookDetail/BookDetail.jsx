@@ -47,19 +47,24 @@ export const BookDetail = () => {
   if (books.length <= 0) {
     return null;
   }
+
   const book = books.find((item) => item.id === bookId);
   const author = authors.find((item) => item.id === book.authorId);
-  const status = statuses.find((item) => item.status === book.status.name);
-  //const genre = genres.find((item) => item.id);
-  console.log('žánry fetch celé', genres);
-  // console.log('žánry fetch kategorie', genres.genreName);
+  //const status = statuses.find((item) => item.id === book.status);
+
+  const status = statuses.find((item) => {
+    console.log('ITEM ID', item.id);
+    console.log('BOOK STATUS book.statusId', book.statusId);
+    console.log('BOOK', book);
+
+    return item.id === book.statusId;
+  });
+
   const bookGenreIds = book.genreId;
   const actualGenres = genres
-    .filter((genreItem) => bookGenreIds.includes(genreItem.id)) // Nejprve filtrujeme objekty žánrů
-    .map((genreItem) => genreItem.genreName) // Poté z každého objektu vytáhneme jen název
+    .filter((genreItem) => bookGenreIds.includes(genreItem.id))
+    .map((genreItem) => genreItem.genreName)
     .join(', ');
-
-  console.log('žánry find', actualGenres);
 
   return (
     <>
@@ -73,7 +78,7 @@ export const BookDetail = () => {
           <h2 className="book-author">{author.name}</h2>
 
           <div className="book-status-badge">
-            <span>{status.name}</span>
+            <span>{status}</span>
           </div>
 
           <div className="book-description">
