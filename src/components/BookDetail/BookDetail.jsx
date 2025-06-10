@@ -1,5 +1,4 @@
 import './BookDetail.css';
-import imgPlaceholder from '../../../src/assets/bookPic-placeholder.png';
 import { getBooks, getAuthors, getBookStatus, getGenres } from '../../helpers/api-helpers';
 import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
@@ -62,7 +61,7 @@ export const BookDetail = () => {
     <>
       <div className="book-detail" key={book.id}>
         <div className="book-cover">
-          <img src={imgPlaceholder} alt="Název knihy" />
+          <img src="assets/bookPic-placeholder.png" alt="Název knihy" />
         </div>
 
         <div className="book-info">
