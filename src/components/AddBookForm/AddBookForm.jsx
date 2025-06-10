@@ -107,7 +107,6 @@ export const AddBookForm = () => {
         <CreatableSelect
           classNamePrefix="select-inputs"
           placeholder=""
-          isClearable
           isDisabled={isLoadingSelect}
           isLoading={isLoadingSelect}
           options={authors.map((author) => ({
