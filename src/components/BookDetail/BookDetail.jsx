@@ -1,27 +1,66 @@
 import './BookDetail.css';
 import imgPlaceholder from '../../../src/assets/bookPic-placeholder.png';
-
+import { getBooks, getAuthors, getBookStatus, getGenres } from '../../helpers/api-helpers';
 import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
+import { act } from 'react';
 
 export const BookDetail = () => {
   const { bookId } = useParams();
   const [books, setBooks] = useState([]);
+  const [authors, setAuthors] = useState([]);
+  const [genres, setGenres] = useState([]);
+  const [statuses, setStatuses] = useState([]);
 
   useEffect(() => {
-    const fetchBooks = async () => {
-      const response = await fetch(`/api/books.json`);
-      const json = await response.json();
-      setBooks(json.data);
+    const fetchBooks = () => {
+      const booksData = getBooks();
+      setBooks(booksData);
     };
-
     fetchBooks();
+  }, []);
+
+  useEffect(() => {
+    const fetchAuthors = () => {
+      const authorsData = getAuthors();
+      setAuthors(authorsData);
+    };
+    fetchAuthors();
+  }, []);
+
+  useEffect(() => {
+    const fetchGenres = () => {
+      const genresData = getGenres();
+      setGenres(genresData);
+    };
+    fetchGenres();
+  }, []);
+
+  useEffect(() => {
+    const fetchStatuses = async () => {
+      const statusesData = getBookStatus();
+      setStatuses(statusesData);
+    };
+    fetchStatuses();
   }, []);
 
   if (books.length <= 0) {
     return null;
   }
   const book = books.find((item) => item.id === bookId);
+  const author = authors.find((item) => item.id === book.authorId);
+  const status = statuses.find((item) => item.status === book.status.name);
+  //const genre = genres.find((item) => item.id);
+  console.log('žánry fetch celé', genres);
+  // console.log('žánry fetch kategorie', genres.genreName);
+  const bookGenreIds = book.genreId;
+  const actualGenres = genres
+    .filter((genreItem) => bookGenreIds.includes(genreItem.id)) // Nejprve filtrujeme objekty žánrů
+    .map((genreItem) => genreItem.genreName) // Poté z každého objektu vytáhneme jen název
+    .join(', ');
+
+  console.log('žánry find', actualGenres);
+
   return (
     <>
       <div className="book-detail" key={book.id}>
@@ -31,10 +70,10 @@ export const BookDetail = () => {
 
         <div className="book-info">
           <h1 className="book-title">{book.title}</h1>
-          <h2 className="book-author">{book.author}</h2>
+          <h2 className="book-author">{author.name}</h2>
 
           <div className="book-status-badge">
-            <span>{book.status}</span>
+            <span>{status.name}</span>
           </div>
 
           <div className="book-description">
@@ -42,7 +81,7 @@ export const BookDetail = () => {
           </div>
 
           <ul className="book-meta-info-list">
-            <li>Žánr: {book.genreId}</li>
+            <li>Žánr: {actualGenres}</li>
             <li>Počet stran: {book.pages}</li>
             <li>Rok vydání: {book.year_published}</li>
             <li>ISBN: {book.isbn}</li>
