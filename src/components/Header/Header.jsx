@@ -43,11 +43,11 @@ export const Header = () => {
       <header className="header">
         <nav className="nav-icons">
           <div className="nav-icon nav-icon--home" onClick={handleClick} ref={iconRef}>
-            <img src="assets/icons/home.png" alt="Home" />
+            <img src="/assets/icons/home.png" alt="Home" />
           </div>
         </nav>
         <Link to={'/'}>
-          <img className="logo-header-small" src="assets/logo_small.png"></img>
+          <img className="logo-header-small" src="/assets/logo_small.png"></img>
         </Link>
         <div className="header-title">SHELFIE</div>
         <div className="header-shelf"></div>

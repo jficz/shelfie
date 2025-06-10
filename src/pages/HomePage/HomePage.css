@@ -9,6 +9,6 @@
 .logo {
   width: 10rem;
   height: 10rem;
-  background-image: url(../../assets/logo-big.png);
+  background-image: url(/assets/logo-big.png);
   background-size: contain;
 }
