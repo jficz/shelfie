@@ -2,7 +2,7 @@ import './BookDetail.css';
 import { getBooks, getAuthors, getBookStatus, getGenres } from '../../helpers/api-helpers';
 import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import { act } from 'react';
+import picPlaceholder from '../../../public/assets/book_pic.png';
 
 export const BookDetail = () => {
   const { bookId } = useParams();
@@ -61,7 +61,7 @@ export const BookDetail = () => {
     <>
       <div className="book-detail" key={book.id}>
         <div className="book-cover">
-          <img src="assets/bookPic-placeholder.png" alt="Název knihy" />
+          <img src={picPlaceholder} alt="Přebal knihy" />
         </div>
 
         <div className="book-info">
