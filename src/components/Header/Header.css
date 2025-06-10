@@ -79,11 +79,11 @@
 
   }
 
-  .nav-icon img {
+  /* .nav-icon img {
     display: none;
-  }
+  } */
 
   .logo-header-small {
- margin-bottom: 8px;
-}
+    margin-bottom: 8px;
+  }
 }
