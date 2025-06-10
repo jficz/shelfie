@@ -14,9 +14,9 @@ export const Footer = () => {
       <h3 className="footer-title">© 2025 Shelfie</h3>
       {menuOpened ? <Menu onLink={handleClick} /> : null}
 
-      <button className="button-menu" onClick={handleClick}>
+      {/* <button className="button-menu" onClick={handleClick}>
         MENU
-      </button>
+      </button> */}
     </footer>
   );
 };
