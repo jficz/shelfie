@@ -37,14 +37,42 @@ export const BookShelf = () => {
   return !books.length || !authors.length ? null : (
     <div className="bookshelf-wrapper">
       <div className="bookshelf">
-        {reversed.slice(0, 7).map((book) => (
+        {reversed.slice(0, 8).map((book) => (
           <BookItem key={book.id} bookId={book.id} title={book.title} author={book.author} />
         ))}
       </div>
       <div className="shelf"></div>
 
       <div className="bookshelf">
-        {reversed.slice(8, 15).map((book) => (
+        {reversed.slice(9, 17).map((book) => (
+          <BookItem key={book.id} bookId={book.id} title={book.title} author={book.author} />
+        ))}
+      </div>
+      <div className="shelf"></div>
+
+      <div className="bookshelf">
+        {reversed.slice(18, 26).map((book) => (
+          <BookItem key={book.id} bookId={book.id} title={book.title} author={book.author} />
+        ))}
+      </div>
+      <div className="shelf"></div>
+
+      <div className="bookshelf">
+        {reversed.slice(27, 35).map((book) => (
+          <BookItem key={book.id} bookId={book.id} title={book.title} author={book.author} />
+        ))}
+      </div>
+      <div className="shelf"></div>
+
+      <div className="bookshelf">
+        {reversed.slice(36, 44).map((book) => (
+          <BookItem key={book.id} bookId={book.id} title={book.title} author={book.author} />
+        ))}
+      </div>
+      <div className="shelf"></div>
+
+      <div className="bookshelf">
+        {reversed.slice(45, 53).map((book) => (
           <BookItem key={book.id} bookId={book.id} title={book.title} author={book.author} />
         ))}
       </div>

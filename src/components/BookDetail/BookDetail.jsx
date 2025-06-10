@@ -1,5 +1,5 @@
 import './BookDetail.css';
-import imgPlaceholder from '../../../src/assets/bookPic-placeholder.jpg';
+import imgPlaceholder from '../../../src/assets/bookPic-placeholder.png';
 
 import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
@@ -24,7 +24,6 @@ export const BookDetail = () => {
   const book = books.find((item) => item.id === bookId);
   return (
     <>
-    
       <div className="book-detail" key={book.id}>
         <div className="book-cover">
           <img src={imgPlaceholder} alt="Název knihy" />
@@ -50,7 +49,6 @@ export const BookDetail = () => {
           </ul>
         </div>
       </div>
-      
     </>
   );
 };

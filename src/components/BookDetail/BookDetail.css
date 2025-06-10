@@ -11,11 +11,11 @@
 
 
 .book-cover img {
-  max-width: 250px;
+  max-width: 200px;
   width: 100%;
   height: auto;
   border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.50);
 }
 
 .book-info {
@@ -30,6 +30,7 @@
   font-size: 2rem;
   margin: 0;
   font-weight: bold;
+  text-shadow: 3px 3px 3px rgb(171, 169, 169);
 }
 
 .book-author {
@@ -41,12 +42,14 @@
 .book-status-badge span {
   display: inline-block;
   padding: 0.3rem 0.8rem;
-  background-color: #0b913c;
+  background-color: var(--accent-color-beige);
   color: white;
   border-radius: 12px;
   font-weight: 600;
   font-size: 0.9rem;
   width: fit-content;
+  box-shadow: 3px 3px 3px rgb(171, 169, 169);
+
 }
 
 .book-description p {
@@ -67,5 +70,3 @@
 .book-meta-info-list li {
   margin-bottom: 0.3rem;
 }
-
-

@@ -25,7 +25,7 @@
   padding: 10px;
   border: none;
   background-color: #c1c8c2;
-  color: #e6eee7;
+  color: var(--background-color-green);
   text-decoration: none;
 }
 
